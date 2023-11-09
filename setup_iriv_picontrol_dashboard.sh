@@ -91,7 +91,7 @@ npm install node-red-dashboard
 npm install node-red-contrib-ads1x15_i2c
 
 # Modify oled.js to rotate screen 180 degrees.
-oled_js_file = "/home/pi/.node-red/node_modules/oled-i2c-bus/oled.js"
+oled_js_file="/home/pi/.node-red/node_modules/oled-i2c-bus/oled.js"
 sed -i "s/this.SEG_REMAP = 0xA1; \/\/ using 0xA0 will flip screen/this.SEG_REMAP = 0xA0; \/\/ using 0xA0 will flip screen/g" $oled_js_file
 sed -i "s/this.COM_SCAN_DEC, \/\/ screen orientation change to INC to flip/this.COM_SCAN_INC, \/\/ screen orientation change to INC to flip/g" $oled_js_file
 
