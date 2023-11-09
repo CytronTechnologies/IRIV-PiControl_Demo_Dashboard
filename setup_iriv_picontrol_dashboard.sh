@@ -72,15 +72,8 @@ echo "###################"
 echo "Installing Node-RED"
 echo "###################"
 echo
-echo "Please answer YES to these questions."
-echo "- Are you really sure you want to do this ? [y/N] ? Y"
-echo "- Would you like to install the Pi-specific nodes ? [y/N] ? Y"
-echo
-echo "Then please answer NO to this question."
-echo "- Would you like to customise the settings now (y/N) ? N"
-echo
 
-bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
+printf 'Y\nY\nN\n' | bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
 
 
 
