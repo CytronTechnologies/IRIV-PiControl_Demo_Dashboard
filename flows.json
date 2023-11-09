@@ -1,0 +1,1617 @@
+[
+    {
+        "id": "5445a7fef5dd7231",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "7e4cdd0309f5b525",
+        "type": "oled-config",
+        "name": "iriv_oled",
+        "width": "128",
+        "height": "64",
+        "address": "3c"
+    },
+    {
+        "id": "6c8ed2f95ccc86e9",
+        "type": "ui_tab",
+        "name": "IRIV PiControl Dashboard",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "60b4dd6e2fefb0fd",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0fb4f5",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#0094ce",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#0094ce",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "IRIV PiControl Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 20,
+                "gy": 20,
+                "cx": 6,
+                "cy": 6,
+                "px": 10,
+                "py": 10
+            }
+        }
+    },
+    {
+        "id": "88ffe255855640ed",
+        "type": "ui_group",
+        "name": "Button, LEDs & Buzzer",
+        "tab": "6c8ed2f95ccc86e9",
+        "order": 1,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5b01c9ef39d93b12",
+        "type": "ui_group",
+        "name": "System",
+        "tab": "6c8ed2f95ccc86e9",
+        "order": 5,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f7e1dc67e31c2f09",
+        "type": "ui_group",
+        "name": "Digital Inputs",
+        "tab": "6c8ed2f95ccc86e9",
+        "order": 2,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5761374055a6c59a",
+        "type": "ui_group",
+        "name": "Digital Outputs",
+        "tab": "6c8ed2f95ccc86e9",
+        "order": 3,
+        "disp": true,
+        "width": "5",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "23019df79a890845",
+        "type": "ui_group",
+        "name": "Analog Inputs",
+        "tab": "6c8ed2f95ccc86e9",
+        "order": 4,
+        "disp": true,
+        "width": "5",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9912e26287021c6f",
+        "type": "ui_spacer",
+        "z": "5445a7fef5dd7231",
+        "name": "spacer",
+        "group": "88ffe255855640ed",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7490c208d3f93fe6",
+        "type": "ui_spacer",
+        "z": "5445a7fef5dd7231",
+        "name": "spacer",
+        "group": "88ffe255855640ed",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5234d5395084981f",
+        "type": "ui_spacer",
+        "z": "5445a7fef5dd7231",
+        "name": "spacer",
+        "group": "f7e1dc67e31c2f09",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "251530dc1df03f16",
+        "type": "ui_spacer",
+        "z": "5445a7fef5dd7231",
+        "name": "spacer",
+        "group": "f7e1dc67e31c2f09",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "aa9f2a0235a0943c",
+        "type": "ui_spacer",
+        "z": "5445a7fef5dd7231",
+        "name": "spacer",
+        "group": "5761374055a6c59a",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "44582690ee7f66d9",
+        "type": "ui_spacer",
+        "z": "5445a7fef5dd7231",
+        "name": "spacer",
+        "group": "5761374055a6c59a",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0a7fd951364aa03b",
+        "type": "ui_spacer",
+        "z": "5445a7fef5dd7231",
+        "name": "spacer",
+        "group": "23019df79a890845",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "548a58e5b5e8158a",
+        "type": "ui_spacer",
+        "z": "5445a7fef5dd7231",
+        "name": "spacer",
+        "group": "23019df79a890845",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "fee2e598d5956665",
+        "type": "ui_spacer",
+        "z": "5445a7fef5dd7231",
+        "name": "spacer",
+        "group": "23019df79a890845",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "81980b4e8bc365ac",
+        "type": "ui_spacer",
+        "z": "5445a7fef5dd7231",
+        "name": "spacer",
+        "group": "23019df79a890845",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b2b78b9079451e94",
+        "type": "inject",
+        "z": "5445a7fef5dd7231",
+        "name": "Do once after 0.1s",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.1",
+        "topic": "",
+        "payload": "{\"x\":1,\"y\":1,\"text\":\"1. Connect to WiFi AP\\n\\nSSID:iriv PW:iriv1234\\n\\n\\n2. Browse to this url\\n\\niriv.local:1880/ui\"}",
+        "payloadType": "json",
+        "x": 490,
+        "y": 220,
+        "wires": [
+            [
+                "4c544b6a1063ed9e"
+            ]
+        ]
+    },
+    {
+        "id": "4c544b6a1063ed9e",
+        "type": "String",
+        "z": "5445a7fef5dd7231",
+        "name": "",
+        "display": "7e4cdd0309f5b525",
+        "x": 690,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "ec39ee34b118e923",
+        "type": "ui_switch",
+        "z": "5445a7fef5dd7231",
+        "name": "",
+        "label": "LED0",
+        "tooltip": "",
+        "group": "88ffe255855640ed",
+        "order": 2,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 450,
+        "y": 340,
+        "wires": [
+            [
+                "d16fc121e0ec61d2"
+            ]
+        ]
+    },
+    {
+        "id": "d16fc121e0ec61d2",
+        "type": "rpi-gpio out",
+        "z": "5445a7fef5dd7231",
+        "name": "LED0 Output",
+        "pin": "20",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 670,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "89cc88a3e1740433",
+        "type": "ui_switch",
+        "z": "5445a7fef5dd7231",
+        "name": "",
+        "label": "LED1",
+        "tooltip": "",
+        "group": "88ffe255855640ed",
+        "order": 5,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 450,
+        "y": 400,
+        "wires": [
+            [
+                "ea4d1d8be785fe94"
+            ]
+        ]
+    },
+    {
+        "id": "ea4d1d8be785fe94",
+        "type": "rpi-gpio out",
+        "z": "5445a7fef5dd7231",
+        "name": "LED1 Output",
+        "pin": "21",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 670,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "cdcdf33c16171195",
+        "type": "ui_button",
+        "z": "5445a7fef5dd7231",
+        "name": "",
+        "group": "88ffe255855640ed",
+        "order": 4,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Buzzer",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "volume_up",
+        "payload": "True",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 460,
+        "y": 460,
+        "wires": [
+            [
+                "150696090b1cc041"
+            ]
+        ]
+    },
+    {
+        "id": "150696090b1cc041",
+        "type": "trigger",
+        "z": "5445a7fef5dd7231",
+        "name": "On for 250ms",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "250",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 680,
+        "y": 460,
+        "wires": [
+            [
+                "42bb863d6a4fe115"
+            ]
+        ]
+    },
+    {
+        "id": "42bb863d6a4fe115",
+        "type": "rpi-gpio out",
+        "z": "5445a7fef5dd7231",
+        "name": "Buzzer Output",
+        "pin": "19",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 900,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "750146473b0c58b6",
+        "type": "ui_switch",
+        "z": "5445a7fef5dd7231",
+        "name": "",
+        "label": "Button",
+        "tooltip": "",
+        "group": "88ffe255855640ed",
+        "order": 7,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "radio_button_checked",
+        "oncolor": "#FFC107",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "radio_button_unchecked",
+        "offcolor": "#44739E",
+        "animate": false,
+        "className": "",
+        "x": 870,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e03de9264d51e128",
+        "type": "rpi-gpio in",
+        "z": "5445a7fef5dd7231",
+        "name": "User Button",
+        "pin": "4",
+        "intype": "tri",
+        "debounce": "25",
+        "read": true,
+        "bcm": true,
+        "x": 470,
+        "y": 520,
+        "wires": [
+            [
+                "94b8b844ba9c91d3"
+            ]
+        ]
+    },
+    {
+        "id": "94b8b844ba9c91d3",
+        "type": "function",
+        "z": "5445a7fef5dd7231",
+        "name": "Invert",
+        "func": "if (msg.payload == 0) {\n    msg.payload = true;\n} else {\n    msg.payload = false;\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 520,
+        "wires": [
+            [
+                "750146473b0c58b6"
+            ]
+        ]
+    },
+    {
+        "id": "60282391e45ceefe",
+        "type": "ui_button",
+        "z": "5445a7fef5dd7231",
+        "name": "",
+        "group": "5b01c9ef39d93b12",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Shutdown",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#ff0000",
+        "className": "",
+        "icon": "power_settings_new",
+        "payload": "True",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 460,
+        "y": 1600,
+        "wires": [
+            [
+                "8b6d5266265dbe47",
+                "ef51286e2037dc1f"
+            ]
+        ]
+    },
+    {
+        "id": "8b6d5266265dbe47",
+        "type": "exec",
+        "z": "5445a7fef5dd7231",
+        "command": "sudo shutdown now",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": true,
+        "oldrc": false,
+        "name": "",
+        "x": 700,
+        "y": 1600,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "4cddbf0560cbb036",
+        "type": "ui_button",
+        "z": "5445a7fef5dd7231",
+        "name": "",
+        "group": "5b01c9ef39d93b12",
+        "order": 2,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Reboot",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#FFC107",
+        "className": "",
+        "icon": "refresh",
+        "payload": "True",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 460,
+        "y": 1720,
+        "wires": [
+            [
+                "f306b45ca9b773d0",
+                "ef51286e2037dc1f"
+            ]
+        ]
+    },
+    {
+        "id": "f306b45ca9b773d0",
+        "type": "exec",
+        "z": "5445a7fef5dd7231",
+        "command": "sudo reboot now",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": true,
+        "oldrc": false,
+        "name": "",
+        "x": 690,
+        "y": 1720,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "4056766b45606b53",
+        "type": "comment",
+        "z": "5445a7fef5dd7231",
+        "name": "Shutdown IRIV PiControl if button is pressed for > 5 seconds.",
+        "info": "",
+        "x": 620,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "d18353856e96aff0",
+        "type": "rpi-gpio in",
+        "z": "5445a7fef5dd7231",
+        "name": "User Button",
+        "pin": "4",
+        "intype": "tri",
+        "debounce": "25",
+        "read": false,
+        "bcm": true,
+        "x": 470,
+        "y": 1840,
+        "wires": [
+            [
+                "a65ed8a93ebe06ac"
+            ]
+        ]
+    },
+    {
+        "id": "a65ed8a93ebe06ac",
+        "type": "trigger",
+        "z": "5445a7fef5dd7231",
+        "name": "",
+        "op1": "",
+        "op2": "",
+        "op1type": "nul",
+        "op2type": "payl",
+        "duration": "5",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "1",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 640,
+        "y": 1840,
+        "wires": [
+            [
+                "abafc847dbf6fa30",
+                "de271e3d5992bd39",
+                "a1e99527f3949721"
+            ]
+        ]
+    },
+    {
+        "id": "158e073027b5fa8e",
+        "type": "rpi-gpio out",
+        "z": "5445a7fef5dd7231",
+        "name": "Buzzer Output",
+        "pin": "19",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 1060,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "abafc847dbf6fa30",
+        "type": "trigger",
+        "z": "5445a7fef5dd7231",
+        "name": "On for 200ms",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "200",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 860,
+        "y": 1840,
+        "wires": [
+            [
+                "158e073027b5fa8e"
+            ]
+        ]
+    },
+    {
+        "id": "7e30735249f25f0f",
+        "type": "exec",
+        "z": "5445a7fef5dd7231",
+        "command": "sudo shutdown now",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": true,
+        "oldrc": false,
+        "name": "",
+        "x": 1080,
+        "y": 1900,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "de271e3d5992bd39",
+        "type": "Clear",
+        "z": "5445a7fef5dd7231",
+        "name": "",
+        "display": "7e4cdd0309f5b525",
+        "x": 830,
+        "y": 1960,
+        "wires": []
+    },
+    {
+        "id": "a1e99527f3949721",
+        "type": "delay",
+        "z": "5445a7fef5dd7231",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "250",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 850,
+        "y": 1900,
+        "wires": [
+            [
+                "7e30735249f25f0f"
+            ]
+        ]
+    },
+    {
+        "id": "ef51286e2037dc1f",
+        "type": "Clear",
+        "z": "5445a7fef5dd7231",
+        "name": "",
+        "display": "7e4cdd0309f5b525",
+        "x": 650,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "c2a67d4bb8214a3c",
+        "type": "comment",
+        "z": "5445a7fef5dd7231",
+        "name": "System command",
+        "info": "",
+        "x": 490,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "9608d87e06c2882c",
+        "type": "comment",
+        "z": "5445a7fef5dd7231",
+        "name": "Button, LEDs & Buzzer",
+        "info": "",
+        "x": 500,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "dc5a9bafa4955fb4",
+        "type": "comment",
+        "z": "5445a7fef5dd7231",
+        "name": "Digital Inputs",
+        "info": "",
+        "x": 470,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "039575720e3bf458",
+        "type": "rpi-gpio in",
+        "z": "5445a7fef5dd7231",
+        "name": "DI0",
+        "pin": "13",
+        "intype": "tri",
+        "debounce": "10",
+        "read": true,
+        "bcm": true,
+        "x": 450,
+        "y": 700,
+        "wires": [
+            [
+                "976396ca4f59f2ce"
+            ]
+        ]
+    },
+    {
+        "id": "35d4ccba2e282c31",
+        "type": "ui_switch",
+        "z": "5445a7fef5dd7231",
+        "name": "",
+        "label": "DI0",
+        "tooltip": "",
+        "group": "f7e1dc67e31c2f09",
+        "order": 1,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "radio_button_checked",
+        "oncolor": "#FFC107",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "radio_button_unchecked",
+        "offcolor": "#44739E",
+        "animate": false,
+        "className": "",
+        "x": 810,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "976396ca4f59f2ce",
+        "type": "function",
+        "z": "5445a7fef5dd7231",
+        "name": "Int to Bool",
+        "func": "if (msg.payload == 0) {\n    msg.payload = false;\n} else {\n    msg.payload = true;\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 700,
+        "wires": [
+            [
+                "35d4ccba2e282c31"
+            ]
+        ]
+    },
+    {
+        "id": "82411685dc2c38fa",
+        "type": "rpi-gpio in",
+        "z": "5445a7fef5dd7231",
+        "name": "DI1",
+        "pin": "17",
+        "intype": "tri",
+        "debounce": "10",
+        "read": true,
+        "bcm": true,
+        "x": 450,
+        "y": 760,
+        "wires": [
+            [
+                "ac69d1180b53a4eb"
+            ]
+        ]
+    },
+    {
+        "id": "96de81e652eaa753",
+        "type": "ui_switch",
+        "z": "5445a7fef5dd7231",
+        "name": "",
+        "label": "DI1",
+        "tooltip": "",
+        "group": "f7e1dc67e31c2f09",
+        "order": 4,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "radio_button_checked",
+        "oncolor": "#FFC107",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "radio_button_unchecked",
+        "offcolor": "#44739E",
+        "animate": false,
+        "className": "",
+        "x": 810,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ac69d1180b53a4eb",
+        "type": "function",
+        "z": "5445a7fef5dd7231",
+        "name": "Int to Bool",
+        "func": "if (msg.payload == 0) {\n    msg.payload = false;\n} else {\n    msg.payload = true;\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 760,
+        "wires": [
+            [
+                "96de81e652eaa753"
+            ]
+        ]
+    },
+    {
+        "id": "5c40e7c00b067253",
+        "type": "rpi-gpio in",
+        "z": "5445a7fef5dd7231",
+        "name": "DI2",
+        "pin": "22",
+        "intype": "tri",
+        "debounce": "10",
+        "read": true,
+        "bcm": true,
+        "x": 450,
+        "y": 820,
+        "wires": [
+            [
+                "4cda470d704d8e80"
+            ]
+        ]
+    },
+    {
+        "id": "b9ef064172544cc3",
+        "type": "ui_switch",
+        "z": "5445a7fef5dd7231",
+        "name": "",
+        "label": "DI2",
+        "tooltip": "",
+        "group": "f7e1dc67e31c2f09",
+        "order": 3,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "radio_button_checked",
+        "oncolor": "#FFC107",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "radio_button_unchecked",
+        "offcolor": "#44739E",
+        "animate": false,
+        "className": "",
+        "x": 810,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4cda470d704d8e80",
+        "type": "function",
+        "z": "5445a7fef5dd7231",
+        "name": "Int to Bool",
+        "func": "if (msg.payload == 0) {\n    msg.payload = false;\n} else {\n    msg.payload = true;\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 820,
+        "wires": [
+            [
+                "b9ef064172544cc3"
+            ]
+        ]
+    },
+    {
+        "id": "38544c13eafe8a92",
+        "type": "rpi-gpio in",
+        "z": "5445a7fef5dd7231",
+        "name": "DI3",
+        "pin": "27",
+        "intype": "tri",
+        "debounce": "10",
+        "read": true,
+        "bcm": true,
+        "x": 450,
+        "y": 880,
+        "wires": [
+            [
+                "faebef991002e65d"
+            ]
+        ]
+    },
+    {
+        "id": "9d4b7e0bc8fa792e",
+        "type": "ui_switch",
+        "z": "5445a7fef5dd7231",
+        "name": "",
+        "label": "DI3",
+        "tooltip": "",
+        "group": "f7e1dc67e31c2f09",
+        "order": 6,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "radio_button_checked",
+        "oncolor": "#FFC107",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "radio_button_unchecked",
+        "offcolor": "#44739E",
+        "animate": false,
+        "className": "",
+        "x": 810,
+        "y": 880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "faebef991002e65d",
+        "type": "function",
+        "z": "5445a7fef5dd7231",
+        "name": "Int to Bool",
+        "func": "if (msg.payload == 0) {\n    msg.payload = false;\n} else {\n    msg.payload = true;\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 880,
+        "wires": [
+            [
+                "9d4b7e0bc8fa792e"
+            ]
+        ]
+    },
+    {
+        "id": "7fb98677f08e50a6",
+        "type": "comment",
+        "z": "5445a7fef5dd7231",
+        "name": "Digital Outputs",
+        "info": "",
+        "x": 480,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "28aa8df4d883d6fd",
+        "type": "ui_switch",
+        "z": "5445a7fef5dd7231",
+        "name": "",
+        "label": "DO0",
+        "tooltip": "",
+        "group": "5761374055a6c59a",
+        "order": 1,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 450,
+        "y": 1020,
+        "wires": [
+            [
+                "3504c6f196126991"
+            ]
+        ]
+    },
+    {
+        "id": "3504c6f196126991",
+        "type": "rpi-gpio out",
+        "z": "5445a7fef5dd7231",
+        "name": "DO0 Output",
+        "pin": "23",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 630,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "2bc17a430cc19406",
+        "type": "ui_switch",
+        "z": "5445a7fef5dd7231",
+        "name": "",
+        "label": "DO1",
+        "tooltip": "",
+        "group": "5761374055a6c59a",
+        "order": 4,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 450,
+        "y": 1080,
+        "wires": [
+            [
+                "71b3041a1ca6fe1c"
+            ]
+        ]
+    },
+    {
+        "id": "71b3041a1ca6fe1c",
+        "type": "rpi-gpio out",
+        "z": "5445a7fef5dd7231",
+        "name": "DO1 Output",
+        "pin": "24",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 630,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "a8437adb5e24c218",
+        "type": "ui_switch",
+        "z": "5445a7fef5dd7231",
+        "name": "",
+        "label": "DO2",
+        "tooltip": "",
+        "group": "5761374055a6c59a",
+        "order": 3,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 450,
+        "y": 1140,
+        "wires": [
+            [
+                "d94e2f174d4b97ae"
+            ]
+        ]
+    },
+    {
+        "id": "d94e2f174d4b97ae",
+        "type": "rpi-gpio out",
+        "z": "5445a7fef5dd7231",
+        "name": "DO2 Output",
+        "pin": "25",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 630,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "f89fb3a36bb8a961",
+        "type": "ui_switch",
+        "z": "5445a7fef5dd7231",
+        "name": "",
+        "label": "DO3",
+        "tooltip": "",
+        "group": "5761374055a6c59a",
+        "order": 6,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 450,
+        "y": 1200,
+        "wires": [
+            [
+                "fda1af32a5f33cfe"
+            ]
+        ]
+    },
+    {
+        "id": "fda1af32a5f33cfe",
+        "type": "rpi-gpio out",
+        "z": "5445a7fef5dd7231",
+        "name": "DO3 Output",
+        "pin": "26",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 630,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "ac3ac06d824af009",
+        "type": "ui_text",
+        "z": "5445a7fef5dd7231",
+        "group": "88ffe255855640ed",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "name": "Button Message",
+        "label": "Press user button for 5 seconds to shutdown IRIV PiControl.",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 480,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "fa3f0e94768397a8",
+        "type": "comment",
+        "z": "5445a7fef5dd7231",
+        "name": "Analog Inputs",
+        "info": "",
+        "x": 470,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "6b65770f7755ee39",
+        "type": "ui_gauge",
+        "z": "5445a7fef5dd7231",
+        "name": "",
+        "group": "23019df79a890845",
+        "order": 1,
+        "width": 2,
+        "height": 2,
+        "gtype": "gage",
+        "title": "AN0",
+        "label": "V",
+        "format": "{{value | number:1}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1090,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "0bb9861fd2482d3d",
+        "type": "ui_gauge",
+        "z": "5445a7fef5dd7231",
+        "name": "",
+        "group": "23019df79a890845",
+        "order": 5,
+        "width": 2,
+        "height": 2,
+        "gtype": "gage",
+        "title": "AN1",
+        "label": "V",
+        "format": "{{value | number:1}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1090,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "dc5c11934b2fcee1",
+        "type": "ui_gauge",
+        "z": "5445a7fef5dd7231",
+        "name": "",
+        "group": "23019df79a890845",
+        "order": 3,
+        "width": 2,
+        "height": 2,
+        "gtype": "gage",
+        "title": "AN2",
+        "label": "V",
+        "format": "{{value | number:1}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1090,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "8852ef03102f5580",
+        "type": "ui_gauge",
+        "z": "5445a7fef5dd7231",
+        "name": "",
+        "group": "23019df79a890845",
+        "order": 7,
+        "width": 2,
+        "height": 2,
+        "gtype": "gage",
+        "title": "AN3",
+        "label": "V",
+        "format": "{{value | number:1}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1090,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "fde6102c008c0d55",
+        "type": "inject",
+        "z": "5445a7fef5dd7231",
+        "name": "Every 500ms",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "0.5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 480,
+        "y": 1320,
+        "wires": [
+            [
+                "b2f9808e6e192c14"
+            ]
+        ]
+    },
+    {
+        "id": "8ed924bb748218e3",
+        "type": "function",
+        "z": "5445a7fef5dd7231",
+        "name": "Scale Voltage",
+        "func": "var msg0 = { payload: msg.payload.length };\nvar msg1 = { payload: msg.payload.length };\nvar msg2 = { payload: msg.payload.length };\nvar msg3 = { payload: msg.payload.length };\n\n\nmsg0.payload = msg.payload[\"/dev/i2c-1\"].ads1115[\"0x48\"].singleEnded.channel_0.Volts * 2.5;\nif (msg0.payload < 0) {\n    msg0.payload = 0;\n}\n\nmsg1.payload = msg.payload[\"/dev/i2c-1\"].ads1115[\"0x48\"].singleEnded.channel_1.Volts * 2.5;\nif (msg1.payload < 0) {\n    msg1.payload = 0;\n}\n\nmsg2.payload = msg.payload[\"/dev/i2c-1\"].ads1115[\"0x48\"].singleEnded.channel_2.Volts * 2.5;\nif (msg2.payload < 0) {\n    msg2.payload = 0;\n}\n\nmsg3.payload = msg.payload[\"/dev/i2c-1\"].ads1115[\"0x48\"].singleEnded.channel_3.Volts * 2.5;\nif (msg3.payload < 0) {\n    msg3.payload = 0;\n}\n\nreturn [msg0, msg1, msg2, msg3];",
+        "outputs": 4,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 1320,
+        "wires": [
+            [
+                "6b65770f7755ee39"
+            ],
+            [
+                "0bb9861fd2482d3d"
+            ],
+            [
+                "dc5c11934b2fcee1"
+            ],
+            [
+                "8852ef03102f5580"
+            ]
+        ]
+    },
+    {
+        "id": "46d67c0af58949f2",
+        "type": "comment",
+        "z": "5445a7fef5dd7231",
+        "name": "Display message on OLED",
+        "info": "",
+        "x": 510,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "259b736f7a31d1ee",
+        "type": "comment",
+        "z": "5445a7fef5dd7231",
+        "name": "Turn on WiFi Hotspot",
+        "info": "",
+        "x": 500,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "ab86a66e0b8a299a",
+        "type": "inject",
+        "z": "5445a7fef5dd7231",
+        "name": "Do once after 0.1s",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.1",
+        "topic": "",
+        "payload": "{\"x\":1,\"y\":1,\"text\":\"1. Connect to WiFi AP\\n\\nSSID:iriv PW:iriv1234\\n\\n\\n2. Browse to this url\\n\\niriv.local:1880/ui\"}",
+        "payloadType": "json",
+        "x": 490,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d7ae7296524f813a",
+        "type": "exec",
+        "z": "5445a7fef5dd7231",
+        "command": "sudo nmcli device wifi hotspot ssid iriv password iriv1234",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": true,
+        "oldrc": false,
+        "name": "",
+        "x": 850,
+        "y": 100,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "b2f9808e6e192c14",
+        "type": "ads1x15_i2c",
+        "z": "5445a7fef5dd7231",
+        "property": "payload",
+        "name": "",
+        "i2c_device_number": 1,
+        "chip": "0x01",
+        "i2c_address": "0x48",
+        "inputsForChannel": "singleEnded",
+        "singleEndedChannel0": true,
+        "singleEndedChannel1": true,
+        "singleEndedChannel2": true,
+        "singleEndedChannel3": true,
+        "differentialChannel0_1": true,
+        "differentialChannel0_3": false,
+        "differentialChannel1_3": false,
+        "differentialChannel2_3": true,
+        "samplesPerSecond0": "920",
+        "samplesPerSecond1": "128",
+        "progGainAmp": "4096",
+        "x": 670,
+        "y": 1320,
+        "wires": [
+            [
+                "8ed924bb748218e3"
+            ]
+        ]
+    }
+]
