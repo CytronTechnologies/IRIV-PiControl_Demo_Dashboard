@@ -129,3 +129,4 @@ echo "Cytron IRIV PiControl Setup Completed"
 echo "#####################################"
 echo
 echo "Please reboot for the changes to take effect."
+echo "It will take some times to reboot."
