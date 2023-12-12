@@ -878,7 +878,7 @@
         "id": "c66ec60dfeab1297",
         "type": "exec",
         "z": "5445a7fef5dd7231",
-        "command": "df -h | awk '$NF==\"/\"{printf \"%d\\n\", $2*1.1}'",
+        "command": "lsblk | grep mmcblk0 -w | awk '{printf "%d\n", $4*1.1}'",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
