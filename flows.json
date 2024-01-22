@@ -4618,7 +4618,7 @@
         "repeat": "",
         "crontab": "",
         "once": true,
-        "onceDelay": "0.5",
+        "onceDelay": "1",
         "topic": "",
         "payload": "",
         "payloadType": "date",
