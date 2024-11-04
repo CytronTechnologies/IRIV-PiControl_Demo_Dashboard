@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Make sure the script is run as root.
+# Make sure the script is not run as root.
 if [ $(id -u) -eq 0 ]; then
     echo
     echo
@@ -19,7 +19,11 @@ echo "###############################"
 echo "Configuring the config.txt file"
 echo "###############################"
 
-config_file="/boot/config.txt"
+if [ -d /boot/firmware ]; then
+  config_file="/boot/firmware/config.txt"
+else
+  config_file="/boot/config.txt"
+fi
 
 # Disable USB OTG.
 grep "#otg_mode=1" $config_file >/dev/null
