@@ -24,6 +24,430 @@
         "env": []
     },
     {
+        "id": "5732512e759ff8e5",
+        "type": "tab",
+        "label": "GPIO",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "bf0b2dd014e61cb7",
+        "type": "group",
+        "z": "5732512e759ff8e5",
+        "name": "Inputs",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "ab40579a183e1ec7",
+            "be701008f611da98",
+            "8a706d172d62abc6",
+            "5202f9b5363404e0",
+            "ea16ad3d7de9a1c1",
+            "a2e80b6fbdc24b74",
+            "ed5cac9635191991",
+            "9031ea95efdb0241",
+            "953d87ee5e6849cb",
+            "1f7d4606b8ef7d0d"
+        ],
+        "x": 234,
+        "y": 239,
+        "w": 312,
+        "h": 322
+    },
+    {
+        "id": "8320fa23569300f5",
+        "type": "group",
+        "z": "5732512e759ff8e5",
+        "name": "Outputs",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "0209ec402afd1cf1",
+            "cd00a2e02518aeaf",
+            "149ad93792094d92",
+            "2548750074348081",
+            "3b788993ad4107c3",
+            "42b9469173c2ba7b",
+            "1f7363a2fa257c85",
+            "ce1091c2d76d7a98",
+            "65c24e5d96a66f8b",
+            "fa0fd4dd8fbb3307",
+            "6cb20d76dc54e752",
+            "cbea8aa350e9f850",
+            "a8b0827e20bcbf69",
+            "ec735cdb8292bced"
+        ],
+        "x": 634,
+        "y": 239,
+        "w": 332,
+        "h": 442
+    },
+    {
+        "id": "8f696b754bce64e9",
+        "type": "group",
+        "z": "62c06baefd79902a",
+        "name": "Button, LEDs & Buzzer",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "ec39ee34b118e923",
+            "89cc88a3e1740433",
+            "cdcdf33c16171195",
+            "150696090b1cc041",
+            "750146473b0c58b6",
+            "94b8b844ba9c91d3",
+            "ac3ac06d824af009",
+            "3c81f5628dc20a3f",
+            "f7c457b6b3a76d13",
+            "b3973b38adab1c5b",
+            "21a1dbbfbb25cf54"
+        ],
+        "x": 314,
+        "y": 79,
+        "w": 572,
+        "h": 322
+    },
+    {
+        "id": "510f7a812a5cb8c6",
+        "type": "group",
+        "z": "62c06baefd79902a",
+        "name": "Digital Inputs",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "35d4ccba2e282c31",
+            "976396ca4f59f2ce",
+            "96de81e652eaa753",
+            "ac69d1180b53a4eb",
+            "b9ef064172544cc3",
+            "4cda470d704d8e80",
+            "9d4b7e0bc8fa792e",
+            "faebef991002e65d",
+            "4f74ee1f606528cf",
+            "f95735e3fd2f719a",
+            "63430cde3b47cae4",
+            "04a969c0823203b6"
+        ],
+        "x": 314,
+        "y": 439,
+        "w": 512,
+        "h": 262
+    },
+    {
+        "id": "f4c5bdb2754f3579",
+        "type": "group",
+        "z": "62c06baefd79902a",
+        "name": "Digital Outputs",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "28aa8df4d883d6fd",
+            "2bc17a430cc19406",
+            "a8437adb5e24c218",
+            "f89fb3a36bb8a961",
+            "850f74466c825092",
+            "9184fe2c4c96ab84",
+            "3ae3b6b962ea589e",
+            "f85ac9e3d1d80e43"
+        ],
+        "x": 314,
+        "y": 739,
+        "w": 262,
+        "h": 262
+    },
+    {
+        "id": "c65c4a2017ccb3f8",
+        "type": "group",
+        "z": "62c06baefd79902a",
+        "name": "Analog Inputs",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "6b65770f7755ee39",
+            "0bb9861fd2482d3d",
+            "dc5c11934b2fcee1",
+            "8852ef03102f5580",
+            "fde6102c008c0d55",
+            "8ed924bb748218e3",
+            "b2f9808e6e192c14"
+        ],
+        "x": 314,
+        "y": 1039,
+        "w": 812,
+        "h": 262
+    },
+    {
+        "id": "ecd28b03fbd1122a",
+        "type": "group",
+        "z": "62c06baefd79902a",
+        "name": "System",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "60282391e45ceefe",
+            "4cddbf0560cbb036",
+            "822d28d21e12240b",
+            "da4f01f1cb203666",
+            "9e6d86ee75895bd9",
+            "c3a32c35cdef8f4b",
+            "e3be9c59a398d806",
+            "33b668c25cfd16a8",
+            "cd338b8cd74b51b4",
+            "5d8c34500db77fa5",
+            "c8607c96ca93c4f5",
+            "8d892f59f1b16913",
+            "aaa2da7bf77f2358",
+            "8e80e1ec14f94b59",
+            "8a83915a5a3f02e4",
+            "2133ac632fd7220c",
+            "4f8ab336209bf378",
+            "34cd93148635b2a2",
+            "3b832cc6a4984378",
+            "5fd50e2c84b7143a",
+            "93edce6fcbf6b8f9",
+            "faa3f5284120d1d2",
+            "fd0ac508be3bf537",
+            "5f182ee507748ee0"
+        ],
+        "x": 314,
+        "y": 1339,
+        "w": 732,
+        "h": 682
+    },
+    {
+        "id": "d10afd801c06d4ca",
+        "type": "group",
+        "z": "e059348302dd4852",
+        "name": "Show the \"Press USER to cont...\" message",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "fc8c66e2e0922097",
+            "44b257e233e15227",
+            "df66aae5f2698be1",
+            "7c62001e563e4156",
+            "93da38cd26e89d3b",
+            "12882f065f5a841b"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 552,
+        "h": 202
+    },
+    {
+        "id": "7731482e8bee75d8",
+        "type": "group",
+        "z": "e059348302dd4852",
+        "name": "Show the main message depending on state machine",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "4c544b6a1063ed9e",
+            "47cb5e590092d9ba",
+            "68b03857599d55ba",
+            "ea5d25498a148a82",
+            "2915e8d7f1e70dfa",
+            "82a9652f2800abd2",
+            "c7ccc0334eb50118",
+            "5fe6b19a8d71f2db",
+            "1a04133fc32a6792",
+            "9c679bdd0fda09a5",
+            "67844b27ca269d92",
+            "1ca737c8e74a22a5",
+            "c4f5922cb26a3998",
+            "5662d80d439cd342",
+            "f8be6e33fe59c735",
+            "f399a42abb16b1ad",
+            "7fbe870b32043c70",
+            "99b8794dfd97d91e",
+            "240bd4794efe75b8",
+            "ec0f86e3bfd31f63",
+            "708b1601fcc4c862",
+            "e14207c6f98a1aa3",
+            "50cfe551baf6634f",
+            "9f313e419bada54e",
+            "986df09df783c6c8",
+            "79575f220d4dfa68",
+            "fb6a157bbf3ad2da",
+            "0fd3b0e6275c5afa",
+            "e0b655b24d767f7c",
+            "ba5250c6a66c834f",
+            "df0410e05074279c",
+            "94e0c36675486a27",
+            "f7b59444a74a9183",
+            "a4cdae48bfc4f014",
+            "281b4b047c0a4463",
+            "024cb06b927f7db7",
+            "f7c06d53c362be14",
+            "23cc7b3fe42d075e",
+            "9067addd23332e57",
+            "7a70498d942f4bce",
+            "3195e6731f24a9c7",
+            "4fb7a1e011f6924a",
+            "bdc2d47d6064b8b5",
+            "24179b89894b4492",
+            "63d03d1018d83a55",
+            "c711b624259b81ee",
+            "266e818d197bc9c7",
+            "b3a3a23d975054ae",
+            "ca4af76f0b455d30",
+            "83cd0f60798471b7",
+            "f01ce313a1230232",
+            "8662c8b52f52a42b",
+            "c427b108497e6ef9",
+            "0a13eb801a55220b",
+            "25d0e6cb2c178d22",
+            "b2617788b39624ef",
+            "f73af2ee572832e8",
+            "75fff9bb3c7c56dd",
+            "bffeeb7a0f989c87",
+            "f070aa2adde760ca",
+            "bf1c56e9fa8b40b3",
+            "807d8dc80041cdb8",
+            "2100d078ef7410f3",
+            "d6192028a8392d38",
+            "1572d2a13e768dfa",
+            "991c532d554e63df",
+            "27a2cee75f250399",
+            "15446f65c461360b",
+            "bd1e7497f1dce7d2",
+            "e6f00ecb0971b54a",
+            "1f3faf39dcc81b2a",
+            "4b95e8a87951172a",
+            "8ad9109e2e4a0a36",
+            "30af8ee86d3e7385",
+            "34c3390d76436038",
+            "fac728d70e1923ab",
+            "1741621e8ef22db4",
+            "6826926c5cc3a0d5"
+        ],
+        "x": 34,
+        "y": 279,
+        "w": 1452,
+        "h": 1142
+    },
+    {
+        "id": "e351d57e375c44e0",
+        "type": "group",
+        "z": "5445a7fef5dd7231",
+        "name": "Exception Handler",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "81bf876881cf8b8e",
+            "cfb8583e19e90093"
+        ],
+        "x": 74,
+        "y": 59,
+        "w": 352,
+        "h": 82
+    },
+    {
+        "id": "8535fbefa24e351e",
+        "type": "group",
+        "z": "5445a7fef5dd7231",
+        "name": "Shutdown IRIV PiControl if user button is pressed for > 5 seconds or commanded from dashboard",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "a65ed8a93ebe06ac",
+            "abafc847dbf6fa30",
+            "7e30735249f25f0f",
+            "de271e3d5992bd39",
+            "a1e99527f3949721",
+            "56c92a79f05d255f",
+            "2901b9043005c968",
+            "946607322a1c245f",
+            "543be67c559aa29b",
+            "0b0b904a0c5d83a0",
+            "08f5d4861be16b40",
+            "548713fd174417c9",
+            "5139eed07877b883"
+        ],
+        "x": 74,
+        "y": 291.5,
+        "w": 932,
+        "h": 337
+    },
+    {
+        "id": "b67ee8a0a756fc97",
+        "type": "group",
+        "z": "5445a7fef5dd7231",
+        "name": "Beep when user button is pressed",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "1f10cf36ba4b4f51",
+            "7a810784755b2915",
+            "59c5ecbc9808ad02",
+            "5654523bdbb6264a"
+        ],
+        "x": 74,
+        "y": 179,
+        "w": 602,
+        "h": 82
+    },
+    {
+        "id": "118e3eec7aeb3303",
+        "type": "group",
+        "z": "5445a7fef5dd7231",
+        "name": "Update Status",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "b83667eb29510be7",
+            "dbd925f357b14d1c",
+            "278eca4926731c0c",
+            "0335107cdd4b8620",
+            "d60d44ce7e860358",
+            "41c1a2d224ba5e50",
+            "1ca2b7496f388944",
+            "d9bae8741593b8d9",
+            "0fda47379c765734",
+            "0eb945c44cc7870d",
+            "3b7bcfb3e511c91e",
+            "557cb8d73a025def",
+            "6226e26c568e0b05",
+            "fa7b9d62b2d8d682",
+            "c4ac9389e39781e3",
+            "4ce849f7660df523",
+            "977f6b2df90b6fac",
+            "c66ec60dfeab1297",
+            "d728b5299d5dbdc4",
+            "949bbc9fe705f728",
+            "cf84f98d178d8f1d",
+            "ae7361b2449f3c4c",
+            "9e3a9627005adbf2",
+            "fdd5d87fc5bf4fff",
+            "b7a216bfc378a218",
+            "9ae354c5c601ab25",
+            "e9b4feb4d8509cab",
+            "5f5693dd2a8ae029",
+            "616f3b01fe83a05c",
+            "d7ae7296524f813a",
+            "b975166d4ae9d029",
+            "259b736f7a31d1ee"
+        ],
+        "x": 74,
+        "y": 679,
+        "w": 1192,
+        "h": 1342
+    },
+    {
         "id": "7e4cdd0309f5b525",
         "type": "oled-config",
         "name": "iriv_oled",
@@ -293,37 +717,10 @@
         "height": 1
     },
     {
-        "id": "4056766b45606b53",
-        "type": "comment",
-        "z": "5445a7fef5dd7231",
-        "name": "Shutdown IRIV PiControl if user button is pressed for > 5 seconds or commanded from dashboard",
-        "info": "",
-        "x": 430,
-        "y": 260,
-        "wires": []
-    },
-    {
-        "id": "d18353856e96aff0",
-        "type": "rpi-gpio in",
-        "z": "5445a7fef5dd7231",
-        "name": "User Button",
-        "pin": "4",
-        "intype": "tri",
-        "debounce": "25",
-        "read": false,
-        "bcm": true,
-        "x": 170,
-        "y": 300,
-        "wires": [
-            [
-                "a65ed8a93ebe06ac"
-            ]
-        ]
-    },
-    {
         "id": "a65ed8a93ebe06ac",
         "type": "trigger",
         "z": "5445a7fef5dd7231",
+        "g": "8535fbefa24e351e",
         "name": "",
         "op1": "",
         "op2": "",
@@ -338,7 +735,7 @@
         "topic": "topic",
         "outputs": 1,
         "x": 340,
-        "y": 300,
+        "y": 340,
         "wires": [
             [
                 "abafc847dbf6fa30",
@@ -349,24 +746,10 @@
         ]
     },
     {
-        "id": "158e073027b5fa8e",
-        "type": "rpi-gpio out",
-        "z": "5445a7fef5dd7231",
-        "name": "Buzzer Output",
-        "pin": "19",
-        "set": true,
-        "level": "0",
-        "freq": "",
-        "out": "out",
-        "bcm": true,
-        "x": 860,
-        "y": 360,
-        "wires": []
-    },
-    {
         "id": "abafc847dbf6fa30",
         "type": "trigger",
         "z": "5445a7fef5dd7231",
+        "g": "8535fbefa24e351e",
         "name": "On for 200ms",
         "op1": "1",
         "op2": "0",
@@ -381,10 +764,10 @@
         "topic": "topic",
         "outputs": 1,
         "x": 660,
-        "y": 360,
+        "y": 400,
         "wires": [
             [
-                "158e073027b5fa8e"
+                "548713fd174417c9"
             ]
         ]
     },
@@ -392,6 +775,7 @@
         "id": "7e30735249f25f0f",
         "type": "exec",
         "z": "5445a7fef5dd7231",
+        "g": "8535fbefa24e351e",
         "command": "sudo shutdown now",
         "addpay": "",
         "append": "",
@@ -401,7 +785,7 @@
         "oldrc": false,
         "name": "",
         "x": 880,
-        "y": 300,
+        "y": 340,
         "wires": [
             [],
             [],
@@ -412,16 +796,18 @@
         "id": "de271e3d5992bd39",
         "type": "Clear",
         "z": "5445a7fef5dd7231",
+        "g": "8535fbefa24e351e",
         "name": "",
         "display": "7e4cdd0309f5b525",
         "x": 830,
-        "y": 420,
+        "y": 460,
         "wires": []
     },
     {
         "id": "a1e99527f3949721",
         "type": "delay",
         "z": "5445a7fef5dd7231",
+        "g": "8535fbefa24e351e",
         "name": "",
         "pauseType": "delay",
         "timeout": "250",
@@ -436,7 +822,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 650,
-        "y": 300,
+        "y": 340,
         "wires": [
             [
                 "7e30735249f25f0f"
@@ -444,19 +830,10 @@
         ]
     },
     {
-        "id": "259b736f7a31d1ee",
-        "type": "comment",
-        "z": "5445a7fef5dd7231",
-        "name": "Turn on WiFi Hotspot if wireless is available",
-        "info": "",
-        "x": 840,
-        "y": 1720,
-        "wires": []
-    },
-    {
         "id": "d7ae7296524f813a",
         "type": "exec",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "command": "sudo nmcli device wifi hotspot ssid iriv password iriv1234",
         "addpay": "",
         "append": "",
@@ -465,8 +842,8 @@
         "winHide": true,
         "oldrc": false,
         "name": "",
-        "x": 1010,
-        "y": 1800,
+        "x": 1030,
+        "y": 1700,
         "wires": [
             [],
             [],
@@ -477,11 +854,12 @@
         "id": "81bf876881cf8b8e",
         "type": "catch",
         "z": "5445a7fef5dd7231",
+        "g": "e351d57e375c44e0",
         "name": "",
         "scope": null,
         "uncaught": false,
         "x": 160,
-        "y": 140,
+        "y": 100,
         "wires": [
             [
                 "cfb8583e19e90093"
@@ -492,6 +870,7 @@
         "id": "cfb8583e19e90093",
         "type": "debug",
         "z": "5445a7fef5dd7231",
+        "g": "e351d57e375c44e0",
         "name": "debug 1",
         "active": true,
         "tosidebar": true,
@@ -501,13 +880,14 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 320,
-        "y": 140,
+        "y": 100,
         "wires": []
     },
     {
         "id": "b83667eb29510be7",
         "type": "exec",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "command": "ip -f inet addr show eth0 | sed -En -e 's/.*inet ([0-9.]+).*/\\1/p'",
         "addpay": "",
         "append": "",
@@ -516,8 +896,8 @@
         "winHide": true,
         "oldrc": false,
         "name": "Get IP - eth0",
-        "x": 410,
-        "y": 840,
+        "x": 430,
+        "y": 760,
         "wires": [
             [
                 "d60d44ce7e860358"
@@ -532,6 +912,7 @@
         "id": "dbd925f357b14d1c",
         "type": "exec",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "command": "ip -f inet addr show eth1 | sed -En -e 's/.*inet ([0-9.]+).*/\\1/p'",
         "addpay": "",
         "append": "",
@@ -540,8 +921,8 @@
         "winHide": true,
         "oldrc": false,
         "name": "Get IP - eth1",
-        "x": 410,
-        "y": 920,
+        "x": 430,
+        "y": 840,
         "wires": [
             [
                 "41c1a2d224ba5e50"
@@ -556,6 +937,7 @@
         "id": "278eca4926731c0c",
         "type": "exec",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "command": "ip -f inet addr show wlan0 | sed -En -e 's/.*inet ([0-9.]+).*/\\1/p'",
         "addpay": "",
         "append": "",
@@ -564,8 +946,8 @@
         "winHide": true,
         "oldrc": false,
         "name": "Get IP - wlan0",
-        "x": 420,
-        "y": 1000,
+        "x": 440,
+        "y": 920,
         "wires": [
             [
                 "1ca2b7496f388944"
@@ -580,6 +962,7 @@
         "id": "0335107cdd4b8620",
         "type": "inject",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "name": "Every 2s",
         "props": [
             {
@@ -597,8 +980,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 160,
-        "y": 840,
+        "x": 180,
+        "y": 760,
         "wires": [
             [
                 "b83667eb29510be7"
@@ -609,6 +992,7 @@
         "id": "d60d44ce7e860358",
         "type": "function",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "name": "Save to global variable IpEth0.",
         "func": "// Append the string length to 15 characters for IP address.\nmsg.payload = msg.payload.trim();\nwhile (msg.payload.length < 15) {\n    msg.payload = msg.payload.concat(\" \");\n}\n\nglobal.set('IpEth0', msg.payload);",
         "outputs": 1,
@@ -617,8 +1001,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 710,
-        "y": 840,
+        "x": 730,
+        "y": 760,
         "wires": [
             []
         ]
@@ -627,6 +1011,7 @@
         "id": "41c1a2d224ba5e50",
         "type": "function",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "name": "Save to global variable IpEth1.",
         "func": "// Append the string length to 15 characters for IP address.\nmsg.payload = msg.payload.trim();\nwhile (msg.payload.length < 15) {\n    msg.payload = msg.payload.concat(\" \");\n}\n\nglobal.set('IpEth1', msg.payload);",
         "outputs": 1,
@@ -635,8 +1020,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 710,
-        "y": 920,
+        "x": 730,
+        "y": 840,
         "wires": [
             []
         ]
@@ -645,6 +1030,7 @@
         "id": "1ca2b7496f388944",
         "type": "function",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "name": "Save to global variable IpWlan0.",
         "func": "// Append the string length to 15 characters for IP address.\nmsg.payload = msg.payload.trim();\nwhile (msg.payload.length < 15) {\n    msg.payload = msg.payload.concat(\" \");\n}\n\nglobal.set('IpWlan0', msg.payload);",
         "outputs": 1,
@@ -653,8 +1039,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 710,
-        "y": 1000,
+        "x": 730,
+        "y": 920,
         "wires": [
             []
         ]
@@ -663,26 +1049,18 @@
         "id": "d9bae8741593b8d9",
         "type": "comment",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "name": "Update status",
         "info": "",
-        "x": 170,
-        "y": 800,
-        "wires": []
-    },
-    {
-        "id": "a6e79a44344bdf4a",
-        "type": "comment",
-        "z": "5445a7fef5dd7231",
-        "name": "Handle the exception",
-        "info": "",
-        "x": 200,
-        "y": 100,
+        "x": 190,
+        "y": 720,
         "wires": []
     },
     {
         "id": "0fda47379c765734",
         "type": "exec",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "command": "top -bn1 | grep load | awk '{printf \"%.2f\\n\", $(NF-2)}'",
         "addpay": "",
         "append": "",
@@ -691,8 +1069,8 @@
         "winHide": true,
         "oldrc": false,
         "name": "Get CPU Load",
-        "x": 420,
-        "y": 1080,
+        "x": 440,
+        "y": 1000,
         "wires": [
             [
                 "0eb945c44cc7870d"
@@ -707,6 +1085,7 @@
         "id": "0eb945c44cc7870d",
         "type": "function",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "name": "Save to global variable CpuLoad",
         "func": "global.set('CpuLoad', msg.payload.trim());\n",
         "outputs": 1,
@@ -715,8 +1094,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 710,
-        "y": 1080,
+        "x": 730,
+        "y": 1000,
         "wires": [
             []
         ]
@@ -725,6 +1104,7 @@
         "id": "3b7bcfb3e511c91e",
         "type": "exec",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "command": "free -m | awk 'NR==2{printf \"%.1f/%.1fGB %d%%\\n\", $3/1000,$2/1000,$3*100/$2}'",
         "addpay": "",
         "append": "",
@@ -733,8 +1113,8 @@
         "winHide": true,
         "oldrc": false,
         "name": "Get RAM Usage",
-        "x": 420,
-        "y": 1240,
+        "x": 440,
+        "y": 1160,
         "wires": [
             [
                 "557cb8d73a025def"
@@ -749,6 +1129,7 @@
         "id": "557cb8d73a025def",
         "type": "function",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "name": "Save to global variable Ram",
         "func": "global.set('Ram', msg.payload.trim());",
         "outputs": 1,
@@ -757,8 +1138,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 700,
-        "y": 1240,
+        "x": 720,
+        "y": 1160,
         "wires": [
             []
         ]
@@ -767,6 +1148,7 @@
         "id": "6226e26c568e0b05",
         "type": "exec",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "command": "df -h | awk '$NF==\"/\"{printf \"%.1f/%.1fGB %s\\n\", $3,$2,$5}'",
         "addpay": "",
         "append": "",
@@ -775,8 +1157,8 @@
         "winHide": true,
         "oldrc": false,
         "name": "Get Disk Usage",
-        "x": 420,
-        "y": 1320,
+        "x": 440,
+        "y": 1240,
         "wires": [
             [
                 "fa7b9d62b2d8d682"
@@ -789,6 +1171,7 @@
         "id": "fa7b9d62b2d8d682",
         "type": "function",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "name": "Save to global variable Disk",
         "func": "global.set('Disk', msg.payload.trim());\n",
         "outputs": 1,
@@ -797,8 +1180,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 700,
-        "y": 1320,
+        "x": 720,
+        "y": 1240,
         "wires": [
             []
         ]
@@ -807,6 +1190,7 @@
         "id": "c4ac9389e39781e3",
         "type": "exec",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "command": "free -t -h | awk 'NR==4{printf \"%d\\n\", $2+0.7}'",
         "addpay": "",
         "append": "",
@@ -815,8 +1199,8 @@
         "winHide": true,
         "oldrc": false,
         "name": "Get total RAM Size",
-        "x": 430,
-        "y": 1440,
+        "x": 450,
+        "y": 1360,
         "wires": [
             [
                 "4ce849f7660df523"
@@ -831,6 +1215,7 @@
         "id": "4ce849f7660df523",
         "type": "function",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "name": "Save to global variable TotalRam",
         "func": "global.set('TotalRam', msg.payload.trim());",
         "outputs": 1,
@@ -839,8 +1224,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 820,
-        "y": 1440,
+        "x": 840,
+        "y": 1360,
         "wires": [
             []
         ]
@@ -849,6 +1234,7 @@
         "id": "977f6b2df90b6fac",
         "type": "inject",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "name": "Run Once",
         "props": [
             {
@@ -866,8 +1252,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 190,
-        "y": 1440,
+        "x": 210,
+        "y": 1360,
         "wires": [
             [
                 "c4ac9389e39781e3"
@@ -878,6 +1264,7 @@
         "id": "c66ec60dfeab1297",
         "type": "exec",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "command": "df -h | awk '$NF==\"/\"{printf \"%d\\n\", $2*1.1}'",
         "addpay": "",
         "append": "",
@@ -886,8 +1273,8 @@
         "winHide": true,
         "oldrc": false,
         "name": "Get total Disk Size",
-        "x": 430,
-        "y": 1520,
+        "x": 450,
+        "y": 1440,
         "wires": [
             [
                 "d728b5299d5dbdc4"
@@ -902,6 +1289,7 @@
         "id": "d728b5299d5dbdc4",
         "type": "function",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "name": "Save to global variable TotalDisk",
         "func": "global.set('TotalDisk', msg.payload.trim());",
         "outputs": 1,
@@ -910,8 +1298,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 810,
-        "y": 1520,
+        "x": 830,
+        "y": 1440,
         "wires": [
             []
         ]
@@ -920,6 +1308,7 @@
         "id": "949bbc9fe705f728",
         "type": "exec",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "command": "ifconfig | grep wlan0",
         "addpay": "",
         "append": "",
@@ -928,8 +1317,8 @@
         "winHide": true,
         "oldrc": false,
         "name": "Check whether there's wireless",
-        "x": 470,
-        "y": 1600,
+        "x": 490,
+        "y": 1520,
         "wires": [
             [
                 "cf84f98d178d8f1d",
@@ -945,6 +1334,7 @@
         "id": "cf84f98d178d8f1d",
         "type": "function",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "name": "Save to global variable IsWireless",
         "func": "var result;\n\nif (msg.payload == \"\") {\n    result = \"\"\n} else {\n    result = \"W\"\n}\n\nglobal.set('IsWireless', result);",
         "outputs": 1,
@@ -953,8 +1343,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 820,
-        "y": 1600,
+        "x": 840,
+        "y": 1520,
         "wires": [
             []
         ]
@@ -963,6 +1353,7 @@
         "id": "ae7361b2449f3c4c",
         "type": "exec",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "command": "vcgencmd measure_temp | awk -F \"[=']\" '{print($2)}'",
         "addpay": "",
         "append": "",
@@ -971,8 +1362,8 @@
         "winHide": true,
         "oldrc": false,
         "name": "Get CPU Temperature",
-        "x": 440,
-        "y": 1160,
+        "x": 460,
+        "y": 1080,
         "wires": [
             [
                 "9e3a9627005adbf2"
@@ -987,6 +1378,7 @@
         "id": "9e3a9627005adbf2",
         "type": "function",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "name": "Save to global variable CpuTemp",
         "func": "global.set('CpuTemp', msg.payload.trim());\n",
         "outputs": 1,
@@ -995,34 +1387,17 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 720,
-        "y": 1160,
+        "x": 740,
+        "y": 1080,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "76f4bb86501bc2cb",
-        "type": "rpi-gpio in",
-        "z": "5445a7fef5dd7231",
-        "name": "User Button",
-        "pin": "4",
-        "intype": "tri",
-        "debounce": "25",
-        "read": false,
-        "bcm": true,
-        "x": 170,
-        "y": 700,
-        "wires": [
-            [
-                "1f10cf36ba4b4f51"
-            ]
         ]
     },
     {
         "id": "1f10cf36ba4b4f51",
         "type": "switch",
         "z": "5445a7fef5dd7231",
+        "g": "b67ee8a0a756fc97",
         "name": "",
         "property": "payload",
         "propertyType": "msg",
@@ -1037,7 +1412,7 @@
         "repair": false,
         "outputs": 1,
         "x": 330,
-        "y": 700,
+        "y": 220,
         "wires": [
             [
                 "7a810784755b2915"
@@ -1048,6 +1423,7 @@
         "id": "7a810784755b2915",
         "type": "trigger",
         "z": "5445a7fef5dd7231",
+        "g": "b67ee8a0a756fc97",
         "name": "On for 25ms",
         "op1": "1",
         "op2": "0",
@@ -1062,48 +1438,24 @@
         "topic": "topic",
         "outputs": 1,
         "x": 490,
-        "y": 700,
+        "y": 220,
         "wires": [
             [
-                "a688746cc065dad3"
+                "59c5ecbc9808ad02"
             ]
         ]
-    },
-    {
-        "id": "a688746cc065dad3",
-        "type": "rpi-gpio out",
-        "z": "5445a7fef5dd7231",
-        "name": "Buzzer Output",
-        "pin": "19",
-        "set": true,
-        "level": "0",
-        "freq": "",
-        "out": "out",
-        "bcm": true,
-        "x": 700,
-        "y": 700,
-        "wires": []
-    },
-    {
-        "id": "7ade77ddd5e9cd94",
-        "type": "comment",
-        "z": "5445a7fef5dd7231",
-        "name": "Beep when user button is pressed",
-        "info": "",
-        "x": 240,
-        "y": 660,
-        "wires": []
     },
     {
         "id": "56c92a79f05d255f",
         "type": "link in",
         "z": "5445a7fef5dd7231",
+        "g": "8535fbefa24e351e",
         "name": "Shutdown",
         "links": [
             "34cd93148635b2a2"
         ],
         "x": 385,
-        "y": 360,
+        "y": 400,
         "wires": [
             [
                 "a1e99527f3949721",
@@ -1117,6 +1469,7 @@
         "id": "2901b9043005c968",
         "type": "function",
         "z": "5445a7fef5dd7231",
+        "g": "8535fbefa24e351e",
         "name": "Update global.state",
         "func": "global.set('state', -1);",
         "outputs": 1,
@@ -1126,7 +1479,7 @@
         "finalize": "",
         "libs": [],
         "x": 670,
-        "y": 480,
+        "y": 520,
         "wires": [
             []
         ]
@@ -1135,6 +1488,7 @@
         "id": "946607322a1c245f",
         "type": "delay",
         "z": "5445a7fef5dd7231",
+        "g": "8535fbefa24e351e",
         "name": "",
         "pauseType": "delay",
         "timeout": "100",
@@ -1149,7 +1503,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 650,
-        "y": 420,
+        "y": 460,
         "wires": [
             [
                 "de271e3d5992bd39"
@@ -1160,6 +1514,7 @@
         "id": "543be67c559aa29b",
         "type": "exec",
         "z": "5445a7fef5dd7231",
+        "g": "8535fbefa24e351e",
         "command": "sudo reboot now",
         "addpay": "",
         "append": "",
@@ -1169,7 +1524,7 @@
         "oldrc": false,
         "name": "",
         "x": 870,
-        "y": 540,
+        "y": 580,
         "wires": [
             [],
             [],
@@ -1180,6 +1535,7 @@
         "id": "0b0b904a0c5d83a0",
         "type": "delay",
         "z": "5445a7fef5dd7231",
+        "g": "8535fbefa24e351e",
         "name": "",
         "pauseType": "delay",
         "timeout": "250",
@@ -1194,7 +1550,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 650,
-        "y": 540,
+        "y": 580,
         "wires": [
             [
                 "543be67c559aa29b"
@@ -1205,12 +1561,13 @@
         "id": "08f5d4861be16b40",
         "type": "link in",
         "z": "5445a7fef5dd7231",
+        "g": "8535fbefa24e351e",
         "name": "Reboot",
         "links": [
             "3b832cc6a4984378"
         ],
         "x": 385,
-        "y": 540,
+        "y": 580,
         "wires": [
             [
                 "0b0b904a0c5d83a0",
@@ -1224,6 +1581,7 @@
         "id": "b975166d4ae9d029",
         "type": "switch",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "name": "",
         "property": "payload",
         "propertyType": "msg",
@@ -1237,8 +1595,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 730,
-        "y": 1800,
+        "x": 750,
+        "y": 1700,
         "wires": [
             [
                 "d7ae7296524f813a"
@@ -1246,19 +1604,10 @@
         ]
     },
     {
-        "id": "41928ef979fd20a2",
-        "type": "comment",
-        "z": "5445a7fef5dd7231",
-        "name": "Remove this if you do not want to enable WiFi AP",
-        "info": "",
-        "x": 860,
-        "y": 1760,
-        "wires": []
-    },
-    {
         "id": "fdd5d87fc5bf4fff",
         "type": "exec",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "command": "lsb_release -c | awk -F \":\" '{print($2)}'",
         "addpay": "",
         "append": "",
@@ -1267,8 +1616,8 @@
         "winHide": true,
         "oldrc": false,
         "name": "Get Codename",
-        "x": 420,
-        "y": 1880,
+        "x": 440,
+        "y": 1800,
         "wires": [
             [
                 "b7a216bfc378a218"
@@ -1283,8 +1632,51 @@
         "id": "b7a216bfc378a218",
         "type": "function",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "name": "Save to global variable Codename",
         "func": "global.set('Codename', msg.payload.trim());",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 1800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9ae354c5c601ab25",
+        "type": "exec",
+        "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
+        "command": "getconf LONG_BIT",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": true,
+        "oldrc": false,
+        "name": "Get OS Bit",
+        "x": 430,
+        "y": 1880,
+        "wires": [
+            [
+                "e9b4feb4d8509cab"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "e9b4feb4d8509cab",
+        "type": "function",
+        "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
+        "name": "Save to global variable OSBit",
+        "func": "global.set('OSBit', msg.payload.trim());",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -1298,49 +1690,10 @@
         ]
     },
     {
-        "id": "9ae354c5c601ab25",
-        "type": "exec",
-        "z": "5445a7fef5dd7231",
-        "command": "getconf LONG_BIT",
-        "addpay": "",
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": true,
-        "oldrc": false,
-        "name": "Get OS Bit",
-        "x": 410,
-        "y": 1960,
-        "wires": [
-            [
-                "e9b4feb4d8509cab"
-            ],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "e9b4feb4d8509cab",
-        "type": "function",
-        "z": "5445a7fef5dd7231",
-        "name": "Save to global variable OSBit",
-        "func": "global.set('OSBit', msg.payload.trim());",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 800,
-        "y": 1960,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "5f5693dd2a8ae029",
         "type": "function",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "name": "Save to global variable Revision",
         "func": "global.set('Revision', \"v1.1.3\");",
         "outputs": 1,
@@ -1349,8 +1702,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 470,
-        "y": 2060,
+        "x": 490,
+        "y": 1980,
         "wires": [
             []
         ]
@@ -1359,6 +1712,7 @@
         "id": "616f3b01fe83a05c",
         "type": "inject",
         "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
         "name": "Run Once",
         "props": [
             {
@@ -1376,8 +1730,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 190,
-        "y": 2060,
+        "x": 210,
+        "y": 1980,
         "wires": [
             [
                 "5f5693dd2a8ae029"
@@ -1385,29 +1739,94 @@
         ]
     },
     {
-        "id": "4c544b6a1063ed9e",
-        "type": "String",
-        "z": "e059348302dd4852",
-        "name": "",
-        "display": "7e4cdd0309f5b525",
-        "x": 1830,
-        "y": 1000,
+        "id": "548713fd174417c9",
+        "type": "link out",
+        "z": "5445a7fef5dd7231",
+        "g": "8535fbefa24e351e",
+        "name": "Buzzer",
+        "mode": "link",
+        "links": [
+            "42b9469173c2ba7b"
+        ],
+        "x": 795,
+        "y": 400,
         "wires": []
     },
     {
-        "id": "46d67c0af58949f2",
+        "id": "59c5ecbc9808ad02",
+        "type": "link out",
+        "z": "5445a7fef5dd7231",
+        "g": "b67ee8a0a756fc97",
+        "name": "Buzzer",
+        "mode": "link",
+        "links": [
+            "42b9469173c2ba7b"
+        ],
+        "x": 635,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "5139eed07877b883",
+        "type": "link in",
+        "z": "5445a7fef5dd7231",
+        "g": "8535fbefa24e351e",
+        "name": "Button",
+        "links": [
+            "be701008f611da98"
+        ],
+        "x": 115,
+        "y": 340,
+        "wires": [
+            [
+                "a65ed8a93ebe06ac"
+            ]
+        ]
+    },
+    {
+        "id": "5654523bdbb6264a",
+        "type": "link in",
+        "z": "5445a7fef5dd7231",
+        "g": "b67ee8a0a756fc97",
+        "name": "Button",
+        "links": [
+            "be701008f611da98"
+        ],
+        "x": 115,
+        "y": 220,
+        "wires": [
+            [
+                "1f10cf36ba4b4f51"
+            ]
+        ]
+    },
+    {
+        "id": "259b736f7a31d1ee",
         "type": "comment",
-        "z": "e059348302dd4852",
-        "name": "Show the \"Press USER to cont...\" message",
+        "z": "5445a7fef5dd7231",
+        "g": "118e3eec7aeb3303",
+        "name": "Turn on WiFi Hotspot if wireless is available. \\n Remove this if you do not want to enable WiFi AP.",
         "info": "",
-        "x": 220,
-        "y": 560,
+        "x": 880,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "4c544b6a1063ed9e",
+        "type": "String",
+        "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
+        "name": "",
+        "display": "7e4cdd0309f5b525",
+        "x": 1410,
+        "y": 1080,
         "wires": []
     },
     {
         "id": "47cb5e590092d9ba",
         "type": "function",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "State Machine",
         "func": "var state = global.get('state') || 0;\n\nif (msg.payload == \"reset\") {\n    state = 0;\n    global.set('state', state);\n\n    msg.payload = state;\n    return msg;\n}\n\nif (msg.payload == 0) {\n    state += 1;\n    if (state == 5) {\n        state = 0;\n    }\n\n    global.set('state', state);\n\n    msg.payload = state;\n    return msg;\n}\n",
         "outputs": 1,
@@ -1416,8 +1835,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 360,
-        "y": 820,
+        "x": 300,
+        "y": 760,
         "wires": [
             [
                 "82a9652f2800abd2"
@@ -1425,27 +1844,10 @@
         ]
     },
     {
-        "id": "3e2fc3820a82fd82",
-        "type": "rpi-gpio in",
-        "z": "e059348302dd4852",
-        "name": "User Button",
-        "pin": "4",
-        "intype": "tri",
-        "debounce": "25",
-        "read": true,
-        "bcm": true,
-        "x": 130,
-        "y": 880,
-        "wires": [
-            [
-                "47cb5e590092d9ba"
-            ]
-        ]
-    },
-    {
         "id": "68b03857599d55ba",
         "type": "switch",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "property": "payload",
         "propertyType": "msg",
@@ -1479,8 +1881,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 5,
-        "x": 890,
-        "y": 820,
+        "x": 470,
+        "y": 900,
         "wires": [
             [
                 "bdc2d47d6064b8b5"
@@ -1503,6 +1905,7 @@
         "id": "ea5d25498a148a82",
         "type": "inject",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "props": [
             {
@@ -1516,8 +1919,8 @@
         "topic": "",
         "payload": "reset",
         "payloadType": "str",
-        "x": 110,
-        "y": 820,
+        "x": 130,
+        "y": 700,
         "wires": [
             [
                 "47cb5e590092d9ba"
@@ -1528,6 +1931,7 @@
         "id": "2915e8d7f1e70dfa",
         "type": "delay",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "pauseType": "delay",
         "timeout": "2",
@@ -1541,8 +1945,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 740,
-        "y": 1060,
+        "x": 320,
+        "y": 1140,
         "wires": [
             [
                 "bd1e7497f1dce7d2"
@@ -1553,6 +1957,7 @@
         "id": "82a9652f2800abd2",
         "type": "trigger",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Limit update frequency",
         "op1": "",
         "op2": "",
@@ -1566,8 +1971,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 640,
-        "y": 820,
+        "x": 220,
+        "y": 900,
         "wires": [
             [
                 "68b03857599d55ba",
@@ -1579,6 +1984,7 @@
         "id": "fc8c66e2e0922097",
         "type": "template",
         "z": "e059348302dd4852",
+        "g": "d10afd801c06d4ca",
         "name": "Show Bottom Text",
         "field": "payload",
         "fieldType": "msg",
@@ -1586,8 +1992,8 @@
         "syntax": "plain",
         "template": "{\n    \"x\": 3,\n    \"y\": 56,\n    \"text\": \"Press USER to cont...\"\n}",
         "output": "json",
-        "x": 530,
-        "y": 660,
+        "x": 330,
+        "y": 200,
         "wires": [
             [
                 "7c62001e563e4156"
@@ -1598,16 +2004,18 @@
         "id": "44b257e233e15227",
         "type": "Line",
         "z": "e059348302dd4852",
+        "g": "d10afd801c06d4ca",
         "name": "",
         "display": "7e4cdd0309f5b525",
-        "x": 710,
-        "y": 620,
+        "x": 510,
+        "y": 140,
         "wires": []
     },
     {
         "id": "df66aae5f2698be1",
         "type": "template",
         "z": "e059348302dd4852",
+        "g": "d10afd801c06d4ca",
         "name": "Draw Line",
         "field": "payload",
         "fieldType": "msg",
@@ -1615,8 +2023,8 @@
         "syntax": "plain",
         "template": "{\n    \"x0\": 1,\n    \"x1\": 128,\n    \"y0\": 52,\n    \"y1\": 52,\n    \"color\": 1\n}",
         "output": "json",
-        "x": 500,
-        "y": 620,
+        "x": 140,
+        "y": 140,
         "wires": [
             [
                 "44b257e233e15227",
@@ -1628,6 +2036,7 @@
         "id": "c7ccc0334eb50118",
         "type": "template",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Show Instruction 1-1",
         "field": "payload",
         "fieldType": "msg",
@@ -1635,8 +2044,8 @@
         "syntax": "plain",
         "template": "{\n    \"x\": 1,\n    \"y\": 15,\n    \"text\": \"1. Connect to WiFi AP\"\n}",
         "output": "json",
-        "x": 1380,
-        "y": 540,
+        "x": 960,
+        "y": 620,
         "wires": [
             [
                 "9067addd23332e57",
@@ -1648,6 +2057,7 @@
         "id": "5fe6b19a8d71f2db",
         "type": "template",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Show Instruction 1-2",
         "field": "payload",
         "fieldType": "msg",
@@ -1655,8 +2065,8 @@
         "syntax": "plain",
         "template": "{\n    \"x\": 1,\n    \"y\": 30,\n    \"text\": \"   SSID: iriv\"\n}",
         "output": "json",
-        "x": 1380,
-        "y": 580,
+        "x": 960,
+        "y": 660,
         "wires": [
             [
                 "7a70498d942f4bce",
@@ -1668,6 +2078,7 @@
         "id": "1a04133fc32a6792",
         "type": "template",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Show Instruction 1-3",
         "field": "payload",
         "fieldType": "msg",
@@ -1675,8 +2086,8 @@
         "syntax": "plain",
         "template": "{\n    \"x\": 1,\n    \"y\": 40,\n    \"text\": \"   Password: iriv1234\"\n}",
         "output": "json",
-        "x": 1380,
-        "y": 620,
+        "x": 960,
+        "y": 700,
         "wires": [
             [
                 "807d8dc80041cdb8"
@@ -1687,16 +2098,18 @@
         "id": "9c679bdd0fda09a5",
         "type": "String",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "display": "7e4cdd0309f5b525",
-        "x": 1830,
-        "y": 560,
+        "x": 1410,
+        "y": 640,
         "wires": []
     },
     {
         "id": "67844b27ca269d92",
         "type": "template",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Show instruction title",
         "field": "payload",
         "fieldType": "msg",
@@ -1704,8 +2117,8 @@
         "syntax": "plain",
         "template": "{\n    \"x\": 1,\n    \"y\": 1,\n    \"text\": \"ACCESS DASHBOARD:\"\n}",
         "output": "json",
-        "x": 1380,
-        "y": 460,
+        "x": 960,
+        "y": 540,
         "wires": [
             [
                 "3195e6731f24a9c7",
@@ -1717,26 +2130,29 @@
         "id": "7c62001e563e4156",
         "type": "String",
         "z": "e059348302dd4852",
+        "g": "d10afd801c06d4ca",
         "name": "",
         "display": "7e4cdd0309f5b525",
-        "x": 710,
-        "y": 660,
+        "x": 510,
+        "y": 200,
         "wires": []
     },
     {
         "id": "1ca737c8e74a22a5",
         "type": "FillRectangle",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "display": "7e4cdd0309f5b525",
-        "x": 890,
-        "y": 920,
+        "x": 470,
+        "y": 1000,
         "wires": []
     },
     {
         "id": "c4f5922cb26a3998",
         "type": "template",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Clear but retain bottom message",
         "field": "payload",
         "fieldType": "msg",
@@ -1744,8 +2160,8 @@
         "syntax": "plain",
         "template": "{\n    \"x\": 1,\n    \"y\": 1,\n    \"w\": 128,\n    \"h\": 49,\n    \"color\": 0\n}",
         "output": "json",
-        "x": 670,
-        "y": 920,
+        "x": 250,
+        "y": 1000,
         "wires": [
             [
                 "1ca737c8e74a22a5"
@@ -1756,6 +2172,7 @@
         "id": "93da38cd26e89d3b",
         "type": "inject",
         "z": "e059348302dd4852",
+        "g": "d10afd801c06d4ca",
         "name": "Run once",
         "props": [
             {
@@ -1773,8 +2190,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 120,
-        "y": 620,
+        "x": 140,
+        "y": 80,
         "wires": [
             [
                 "df66aae5f2698be1"
@@ -1785,6 +2202,7 @@
         "id": "5662d80d439cd342",
         "type": "template",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Show Instruction 2-2",
         "field": "payload",
         "fieldType": "msg",
@@ -1792,8 +2210,8 @@
         "syntax": "plain",
         "template": "{\n    \"x\": 1,\n    \"y\": 33,\n    \"text\": \"   iriv.local:1880/ui\"\n}",
         "output": "json",
-        "x": 1380,
-        "y": 820,
+        "x": 960,
+        "y": 900,
         "wires": [
             [
                 "d6192028a8392d38"
@@ -1804,6 +2222,7 @@
         "id": "f8be6e33fe59c735",
         "type": "template",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Show Instruction 2-1",
         "field": "payload",
         "fieldType": "msg",
@@ -1811,8 +2230,8 @@
         "syntax": "plain",
         "template": "{\n    \"x\": 1,\n    \"y\": 18,\n    \"text\": \"2. Open this url:\"\n}",
         "output": "json",
-        "x": 1380,
-        "y": 780,
+        "x": 960,
+        "y": 860,
         "wires": [
             [
                 "b3a3a23d975054ae",
@@ -1824,16 +2243,18 @@
         "id": "f399a42abb16b1ad",
         "type": "String",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "display": "7e4cdd0309f5b525",
-        "x": 1830,
-        "y": 780,
+        "x": 1410,
+        "y": 860,
         "wires": []
     },
     {
         "id": "7fbe870b32043c70",
         "type": "template",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Show instruction title",
         "field": "payload",
         "fieldType": "msg",
@@ -1841,8 +2262,8 @@
         "syntax": "plain",
         "template": "{\n    \"x\": 1,\n    \"y\": 1,\n    \"text\": \"ACCESS DASHBOARD:\"\n}",
         "output": "json",
-        "x": 1380,
-        "y": 700,
+        "x": 960,
+        "y": 780,
         "wires": [
             [
                 "c711b624259b81ee",
@@ -1854,6 +2275,7 @@
         "id": "99b8794dfd97d91e",
         "type": "template",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Show IRIV PiControl",
         "field": "payload",
         "fieldType": "msg",
@@ -1861,8 +2283,8 @@
         "syntax": "plain",
         "template": "{\n    \"x\": 1,\n    \"y\": 1,\n    \"size\": 2,\n    \"text\": \"IRIV PiCtrl\"\n}",
         "output": "json",
-        "x": 1380,
-        "y": 240,
+        "x": 960,
+        "y": 320,
         "wires": [
             [
                 "f070aa2adde760ca",
@@ -1874,16 +2296,18 @@
         "id": "240bd4794efe75b8",
         "type": "String",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "display": "7e4cdd0309f5b525",
-        "x": 1830,
-        "y": 320,
+        "x": 1410,
+        "y": 400,
         "wires": []
     },
     {
         "id": "ec0f86e3bfd31f63",
         "type": "template",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Show Model",
         "field": "payload",
         "fieldType": "msg",
@@ -1891,8 +2315,8 @@
         "syntax": "mustache",
         "template": "{\n    \"x\": 2,\n    \"y\": 28,\n    \"size\": 2,\n    \"text\": \"{{global.IsWireless}}R{{global.TotalRam}}E{{global.TotalDisk}}\"\n}",
         "output": "json",
-        "x": 1350,
-        "y": 320,
+        "x": 930,
+        "y": 400,
         "wires": [
             [
                 "f070aa2adde760ca",
@@ -1904,6 +2328,7 @@
         "id": "708b1601fcc4c862",
         "type": "template",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Show IP title",
         "field": "payload",
         "fieldType": "msg",
@@ -1911,8 +2336,8 @@
         "syntax": "plain",
         "template": "{\n    \"x\": 1,\n    \"y\": 1,\n    \"text\": \"IP ADDRESSES:\"\n}",
         "output": "json",
-        "x": 1350,
-        "y": 900,
+        "x": 930,
+        "y": 980,
         "wires": [
             [
                 "83cd0f60798471b7",
@@ -1924,6 +2349,7 @@
         "id": "e14207c6f98a1aa3",
         "type": "template",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Show eth0",
         "field": "payload",
         "fieldType": "msg",
@@ -1931,8 +2357,8 @@
         "syntax": "mustache",
         "template": "{\n    \"x\": 1,\n    \"y\": 15,\n    \"text\": \"eth0: {{global.IpEth0}}\"\n}",
         "output": "json",
-        "x": 1350,
-        "y": 980,
+        "x": 930,
+        "y": 1060,
         "wires": [
             [
                 "8662c8b52f52a42b",
@@ -1944,6 +2370,7 @@
         "id": "50cfe551baf6634f",
         "type": "template",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Show eth1",
         "field": "payload",
         "fieldType": "msg",
@@ -1951,8 +2378,8 @@
         "syntax": "mustache",
         "template": "{\n    \"x\": 1,\n    \"y\": 27,\n    \"text\": \"eth1: {{global.IpEth1}}\"\n}",
         "output": "json",
-        "x": 1350,
-        "y": 1020,
+        "x": 930,
+        "y": 1100,
         "wires": [
             [
                 "c427b108497e6ef9",
@@ -1964,6 +2391,7 @@
         "id": "9f313e419bada54e",
         "type": "template",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Show wlan0",
         "field": "payload",
         "fieldType": "msg",
@@ -1971,8 +2399,8 @@
         "syntax": "mustache",
         "template": "{\n    \"x\": 1,\n    \"y\": 39,\n    \"text\": \"wlan0: {{global.IpWlan0}}\"\n}",
         "output": "json",
-        "x": 1350,
-        "y": 1060,
+        "x": 930,
+        "y": 1140,
         "wires": [
             [
                 "2915e8d7f1e70dfa",
@@ -1984,6 +2412,7 @@
         "id": "986df09df783c6c8",
         "type": "template",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Show Status title",
         "field": "payload",
         "fieldType": "msg",
@@ -1991,8 +2420,8 @@
         "syntax": "plain",
         "template": "{\n    \"x\": 1,\n    \"y\": 1,\n    \"text\": \"CM4 STATUS:\"\n}",
         "output": "json",
-        "x": 1370,
-        "y": 1140,
+        "x": 950,
+        "y": 1220,
         "wires": [
             [
                 "15446f65c461360b",
@@ -2004,6 +2433,7 @@
         "id": "79575f220d4dfa68",
         "type": "template",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Show Load & Temp",
         "field": "payload",
         "fieldType": "msg",
@@ -2011,8 +2441,8 @@
         "syntax": "mustache",
         "template": "{\n    \"x\": 1,\n    \"y\": 15,\n    \"text\": \"Load: {{global.CpuLoad}} Temp: {{global.CpuTemp}}\"\n}",
         "output": "json",
-        "x": 1370,
-        "y": 1220,
+        "x": 950,
+        "y": 1300,
         "wires": [
             [
                 "15446f65c461360b",
@@ -2024,6 +2454,7 @@
         "id": "fb6a157bbf3ad2da",
         "type": "template",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Show RAM",
         "field": "payload",
         "fieldType": "msg",
@@ -2031,8 +2462,8 @@
         "syntax": "mustache",
         "template": "{\n    \"x\": 1,\n    \"y\": 27,\n    \"text\": \"RAM:  {{{global.Ram}}}\"\n}",
         "output": "json",
-        "x": 1350,
-        "y": 1260,
+        "x": 930,
+        "y": 1340,
         "wires": [
             [
                 "15446f65c461360b",
@@ -2044,6 +2475,7 @@
         "id": "0fd3b0e6275c5afa",
         "type": "template",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Show Disk",
         "field": "payload",
         "fieldType": "msg",
@@ -2051,8 +2483,8 @@
         "syntax": "mustache",
         "template": "{\n    \"x\": 1,\n    \"y\": 39,\n    \"text\": \"Disk: {{{global.Disk}}}\"\n}",
         "output": "json",
-        "x": 1350,
-        "y": 1300,
+        "x": 930,
+        "y": 1380,
         "wires": [
             [
                 "bffeeb7a0f989c87",
@@ -2064,26 +2496,29 @@
         "id": "e0b655b24d767f7c",
         "type": "String",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "display": "7e4cdd0309f5b525",
-        "x": 1830,
-        "y": 1240,
+        "x": 1410,
+        "y": 1320,
         "wires": []
     },
     {
         "id": "ba5250c6a66c834f",
         "type": "Line",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "display": "7e4cdd0309f5b525",
-        "x": 1830,
-        "y": 500,
+        "x": 1410,
+        "y": 580,
         "wires": []
     },
     {
         "id": "df0410e05074279c",
         "type": "template",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Draw Line",
         "field": "payload",
         "fieldType": "msg",
@@ -2091,8 +2526,8 @@
         "syntax": "plain",
         "template": "{\n    \"x0\": 1,\n    \"x1\": 100,\n    \"y0\": 9,\n    \"y1\": 9,\n    \"color\": 1\n}",
         "output": "json",
-        "x": 1340,
-        "y": 500,
+        "x": 920,
+        "y": 580,
         "wires": [
             [
                 "23cc7b3fe42d075e",
@@ -2104,16 +2539,18 @@
         "id": "94e0c36675486a27",
         "type": "Line",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "display": "7e4cdd0309f5b525",
-        "x": 1830,
-        "y": 740,
+        "x": 1410,
+        "y": 820,
         "wires": []
     },
     {
         "id": "f7b59444a74a9183",
         "type": "template",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Draw Line",
         "field": "payload",
         "fieldType": "msg",
@@ -2121,8 +2558,8 @@
         "syntax": "plain",
         "template": "{\n    \"x0\": 1,\n    \"x1\": 100,\n    \"y0\": 9,\n    \"y1\": 9,\n    \"color\": 1\n}",
         "output": "json",
-        "x": 1340,
-        "y": 740,
+        "x": 920,
+        "y": 820,
         "wires": [
             [
                 "266e818d197bc9c7",
@@ -2134,16 +2571,18 @@
         "id": "a4cdae48bfc4f014",
         "type": "Line",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "display": "7e4cdd0309f5b525",
-        "x": 1830,
-        "y": 940,
+        "x": 1410,
+        "y": 1020,
         "wires": []
     },
     {
         "id": "281b4b047c0a4463",
         "type": "template",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Draw Line",
         "field": "payload",
         "fieldType": "msg",
@@ -2151,8 +2590,8 @@
         "syntax": "plain",
         "template": "{\n    \"x0\": 1,\n    \"x1\": 77,\n    \"y0\": 9,\n    \"y1\": 9,\n    \"color\": 1\n}",
         "output": "json",
-        "x": 1340,
-        "y": 940,
+        "x": 920,
+        "y": 1020,
         "wires": [
             [
                 "f01ce313a1230232",
@@ -2164,16 +2603,18 @@
         "id": "024cb06b927f7db7",
         "type": "Line",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "display": "7e4cdd0309f5b525",
-        "x": 1830,
-        "y": 1180,
+        "x": 1410,
+        "y": 1260,
         "wires": []
     },
     {
         "id": "f7c06d53c362be14",
         "type": "template",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Draw Line",
         "field": "payload",
         "fieldType": "msg",
@@ -2181,8 +2622,8 @@
         "syntax": "plain",
         "template": "{\n    \"x0\": 1,\n    \"x1\": 65,\n    \"y0\": 9,\n    \"y1\": 9,\n    \"color\": 1\n}",
         "output": "json",
-        "x": 1340,
-        "y": 1180,
+        "x": 920,
+        "y": 1260,
         "wires": [
             [
                 "27a2cee75f250399",
@@ -2194,6 +2635,7 @@
         "id": "23cc7b3fe42d075e",
         "type": "delay",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "pauseType": "delay",
         "timeout": "10",
@@ -2207,8 +2649,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1190,
-        "y": 540,
+        "x": 770,
+        "y": 620,
         "wires": [
             [
                 "c7ccc0334eb50118"
@@ -2219,6 +2661,7 @@
         "id": "9067addd23332e57",
         "type": "delay",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "pauseType": "delay",
         "timeout": "10",
@@ -2232,8 +2675,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1190,
-        "y": 580,
+        "x": 770,
+        "y": 660,
         "wires": [
             [
                 "5fe6b19a8d71f2db"
@@ -2244,6 +2687,7 @@
         "id": "7a70498d942f4bce",
         "type": "delay",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "pauseType": "delay",
         "timeout": "10",
@@ -2257,8 +2701,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1190,
-        "y": 620,
+        "x": 770,
+        "y": 700,
         "wires": [
             [
                 "1a04133fc32a6792"
@@ -2269,6 +2713,7 @@
         "id": "3195e6731f24a9c7",
         "type": "delay",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "pauseType": "delay",
         "timeout": "10",
@@ -2282,8 +2727,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1190,
-        "y": 500,
+        "x": 770,
+        "y": 580,
         "wires": [
             [
                 "df0410e05074279c"
@@ -2294,6 +2739,7 @@
         "id": "4fb7a1e011f6924a",
         "type": "delay",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "pauseType": "delay",
         "timeout": "10",
@@ -2307,8 +2753,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1190,
-        "y": 460,
+        "x": 770,
+        "y": 540,
         "wires": [
             [
                 "67844b27ca269d92"
@@ -2319,6 +2765,7 @@
         "id": "bdc2d47d6064b8b5",
         "type": "delay",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "pauseType": "delay",
         "timeout": "10",
@@ -2332,8 +2779,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1190,
-        "y": 240,
+        "x": 770,
+        "y": 320,
         "wires": [
             [
                 "99b8794dfd97d91e"
@@ -2344,6 +2791,7 @@
         "id": "24179b89894b4492",
         "type": "delay",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "pauseType": "delay",
         "timeout": "10",
@@ -2357,8 +2805,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1190,
-        "y": 320,
+        "x": 770,
+        "y": 400,
         "wires": [
             [
                 "ec0f86e3bfd31f63"
@@ -2369,6 +2817,7 @@
         "id": "63d03d1018d83a55",
         "type": "delay",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "pauseType": "delay",
         "timeout": "10",
@@ -2382,8 +2831,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1190,
-        "y": 700,
+        "x": 770,
+        "y": 780,
         "wires": [
             [
                 "7fbe870b32043c70"
@@ -2394,6 +2843,7 @@
         "id": "c711b624259b81ee",
         "type": "delay",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "pauseType": "delay",
         "timeout": "10",
@@ -2407,8 +2857,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1190,
-        "y": 740,
+        "x": 770,
+        "y": 820,
         "wires": [
             [
                 "f7b59444a74a9183"
@@ -2419,6 +2869,7 @@
         "id": "266e818d197bc9c7",
         "type": "delay",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "pauseType": "delay",
         "timeout": "10",
@@ -2432,8 +2883,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1190,
-        "y": 780,
+        "x": 770,
+        "y": 860,
         "wires": [
             [
                 "f8be6e33fe59c735"
@@ -2444,6 +2895,7 @@
         "id": "b3a3a23d975054ae",
         "type": "delay",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "pauseType": "delay",
         "timeout": "10",
@@ -2457,8 +2909,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1190,
-        "y": 820,
+        "x": 770,
+        "y": 900,
         "wires": [
             [
                 "5662d80d439cd342"
@@ -2469,6 +2921,7 @@
         "id": "ca4af76f0b455d30",
         "type": "delay",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "pauseType": "delay",
         "timeout": "10",
@@ -2482,8 +2935,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1190,
-        "y": 900,
+        "x": 770,
+        "y": 980,
         "wires": [
             [
                 "708b1601fcc4c862"
@@ -2494,6 +2947,7 @@
         "id": "83cd0f60798471b7",
         "type": "delay",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "pauseType": "delay",
         "timeout": "10",
@@ -2507,8 +2961,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1190,
-        "y": 940,
+        "x": 770,
+        "y": 1020,
         "wires": [
             [
                 "281b4b047c0a4463"
@@ -2519,6 +2973,7 @@
         "id": "f01ce313a1230232",
         "type": "delay",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "pauseType": "delay",
         "timeout": "10",
@@ -2532,8 +2987,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1190,
-        "y": 980,
+        "x": 770,
+        "y": 1060,
         "wires": [
             [
                 "e14207c6f98a1aa3"
@@ -2544,6 +2999,7 @@
         "id": "8662c8b52f52a42b",
         "type": "delay",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "pauseType": "delay",
         "timeout": "10",
@@ -2557,8 +3013,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1190,
-        "y": 1020,
+        "x": 770,
+        "y": 1100,
         "wires": [
             [
                 "50cfe551baf6634f"
@@ -2569,6 +3025,7 @@
         "id": "c427b108497e6ef9",
         "type": "delay",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "pauseType": "delay",
         "timeout": "10",
@@ -2582,8 +3039,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1190,
-        "y": 1060,
+        "x": 770,
+        "y": 1140,
         "wires": [
             [
                 "9f313e419bada54e"
@@ -2594,6 +3051,7 @@
         "id": "0a13eb801a55220b",
         "type": "delay",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "pauseType": "delay",
         "timeout": "10",
@@ -2607,8 +3065,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1190,
-        "y": 1140,
+        "x": 770,
+        "y": 1220,
         "wires": [
             [
                 "986df09df783c6c8"
@@ -2619,6 +3077,7 @@
         "id": "25d0e6cb2c178d22",
         "type": "delay",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "pauseType": "delay",
         "timeout": "10",
@@ -2632,8 +3091,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1190,
-        "y": 1180,
+        "x": 770,
+        "y": 1260,
         "wires": [
             [
                 "f7c06d53c362be14"
@@ -2644,6 +3103,7 @@
         "id": "b2617788b39624ef",
         "type": "delay",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "pauseType": "delay",
         "timeout": "10",
@@ -2657,8 +3117,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1190,
-        "y": 1220,
+        "x": 770,
+        "y": 1300,
         "wires": [
             [
                 "79575f220d4dfa68"
@@ -2669,6 +3129,7 @@
         "id": "f73af2ee572832e8",
         "type": "delay",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "pauseType": "delay",
         "timeout": "10",
@@ -2682,8 +3143,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1190,
-        "y": 1260,
+        "x": 770,
+        "y": 1340,
         "wires": [
             [
                 "fb6a157bbf3ad2da"
@@ -2694,6 +3155,7 @@
         "id": "75fff9bb3c7c56dd",
         "type": "delay",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "pauseType": "delay",
         "timeout": "10",
@@ -2707,8 +3169,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1190,
-        "y": 1300,
+        "x": 770,
+        "y": 1380,
         "wires": [
             [
                 "0fd3b0e6275c5afa"
@@ -2719,6 +3181,7 @@
         "id": "bffeeb7a0f989c87",
         "type": "delay",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "pauseType": "delay",
         "timeout": "2",
@@ -2732,8 +3195,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 740,
-        "y": 1300,
+        "x": 320,
+        "y": 1380,
         "wires": [
             [
                 "e6f00ecb0971b54a"
@@ -2744,6 +3207,7 @@
         "id": "f070aa2adde760ca",
         "type": "switch",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Verify state again",
         "property": "state",
         "propertyType": "global",
@@ -2757,8 +3221,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1650,
-        "y": 320,
+        "x": 1230,
+        "y": 400,
         "wires": [
             [
                 "240bd4794efe75b8"
@@ -2769,6 +3233,7 @@
         "id": "bf1c56e9fa8b40b3",
         "type": "switch",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Verify state again",
         "property": "state",
         "propertyType": "global",
@@ -2782,8 +3247,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1650,
-        "y": 500,
+        "x": 1230,
+        "y": 580,
         "wires": [
             [
                 "ba5250c6a66c834f"
@@ -2794,6 +3259,7 @@
         "id": "807d8dc80041cdb8",
         "type": "switch",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Verify state again",
         "property": "state",
         "propertyType": "global",
@@ -2807,8 +3273,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1650,
-        "y": 560,
+        "x": 1230,
+        "y": 640,
         "wires": [
             [
                 "9c679bdd0fda09a5"
@@ -2819,6 +3285,7 @@
         "id": "2100d078ef7410f3",
         "type": "switch",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Verify state again",
         "property": "state",
         "propertyType": "global",
@@ -2832,8 +3299,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1650,
-        "y": 740,
+        "x": 1230,
+        "y": 820,
         "wires": [
             [
                 "94e0c36675486a27"
@@ -2844,6 +3311,7 @@
         "id": "d6192028a8392d38",
         "type": "switch",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Verify state again",
         "property": "state",
         "propertyType": "global",
@@ -2857,8 +3325,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1650,
-        "y": 780,
+        "x": 1230,
+        "y": 860,
         "wires": [
             [
                 "f399a42abb16b1ad"
@@ -2869,6 +3337,7 @@
         "id": "1572d2a13e768dfa",
         "type": "switch",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Verify state again",
         "property": "state",
         "propertyType": "global",
@@ -2882,8 +3351,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1650,
-        "y": 940,
+        "x": 1230,
+        "y": 1020,
         "wires": [
             [
                 "a4cdae48bfc4f014"
@@ -2894,6 +3363,7 @@
         "id": "991c532d554e63df",
         "type": "switch",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Verify state again",
         "property": "state",
         "propertyType": "global",
@@ -2907,8 +3377,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1650,
-        "y": 1000,
+        "x": 1230,
+        "y": 1080,
         "wires": [
             [
                 "4c544b6a1063ed9e"
@@ -2919,6 +3389,7 @@
         "id": "27a2cee75f250399",
         "type": "switch",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Verify state again",
         "property": "state",
         "propertyType": "global",
@@ -2932,8 +3403,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1650,
-        "y": 1180,
+        "x": 1230,
+        "y": 1260,
         "wires": [
             [
                 "024cb06b927f7db7"
@@ -2944,6 +3415,7 @@
         "id": "15446f65c461360b",
         "type": "switch",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Verify state again",
         "property": "state",
         "propertyType": "global",
@@ -2957,8 +3429,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1650,
-        "y": 1240,
+        "x": 1230,
+        "y": 1320,
         "wires": [
             [
                 "e0b655b24d767f7c"
@@ -2969,6 +3441,7 @@
         "id": "bd1e7497f1dce7d2",
         "type": "switch",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Verify state again",
         "property": "state",
         "propertyType": "global",
@@ -2982,8 +3455,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 930,
-        "y": 1060,
+        "x": 510,
+        "y": 1140,
         "wires": [
             [
                 "f01ce313a1230232"
@@ -2994,6 +3467,7 @@
         "id": "e6f00ecb0971b54a",
         "type": "switch",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Verify state again",
         "property": "state",
         "propertyType": "global",
@@ -3007,8 +3481,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 930,
-        "y": 1300,
+        "x": 510,
+        "y": 1380,
         "wires": [
             [
                 "b2617788b39624ef"
@@ -3016,19 +3490,10 @@
         ]
     },
     {
-        "id": "c12af128d03aba47",
-        "type": "comment",
-        "z": "e059348302dd4852",
-        "name": "Show the main message depending on state machine",
-        "info": "",
-        "x": 260,
-        "y": 760,
-        "wires": []
-    },
-    {
         "id": "12882f065f5a841b",
         "type": "delay",
         "z": "e059348302dd4852",
+        "g": "d10afd801c06d4ca",
         "name": "",
         "pauseType": "delay",
         "timeout": "10",
@@ -3042,8 +3507,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 350,
-        "y": 660,
+        "x": 150,
+        "y": 200,
         "wires": [
             [
                 "fc8c66e2e0922097"
@@ -3054,16 +3519,18 @@
         "id": "1f3faf39dcc81b2a",
         "type": "comment",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Sate = -1 means shutting down",
         "info": "",
-        "x": 410,
-        "y": 860,
+        "x": 350,
+        "y": 720,
         "wires": []
     },
     {
         "id": "4b95e8a87951172a",
         "type": "template",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Show Revision",
         "field": "payload",
         "fieldType": "msg",
@@ -3071,8 +3538,8 @@
         "syntax": "mustache",
         "template": "{\n    \"x\": 78,\n    \"y\": 20,\n    \"size\": 1,\n    \"text\": \"{{global.Revision}}\"\n}",
         "output": "json",
-        "x": 1360,
-        "y": 280,
+        "x": 940,
+        "y": 360,
         "wires": [
             [
                 "f070aa2adde760ca",
@@ -3084,6 +3551,7 @@
         "id": "8ad9109e2e4a0a36",
         "type": "delay",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "pauseType": "delay",
         "timeout": "10",
@@ -3097,8 +3565,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1190,
-        "y": 280,
+        "x": 770,
+        "y": 360,
         "wires": [
             [
                 "4b95e8a87951172a"
@@ -3109,6 +3577,7 @@
         "id": "30af8ee86d3e7385",
         "type": "template",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Show Codename",
         "field": "payload",
         "fieldType": "msg",
@@ -3116,8 +3585,8 @@
         "syntax": "mustache",
         "template": "{\n    \"x\": 78,\n    \"y\": 30,\n    \"size\": 1,\n    \"text\": \"{{global.Codename}}\"\n}",
         "output": "json",
-        "x": 1370,
-        "y": 360,
+        "x": 950,
+        "y": 440,
         "wires": [
             [
                 "f070aa2adde760ca",
@@ -3129,6 +3598,7 @@
         "id": "34c3390d76436038",
         "type": "delay",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "pauseType": "delay",
         "timeout": "10",
@@ -3142,8 +3612,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1190,
-        "y": 360,
+        "x": 770,
+        "y": 440,
         "wires": [
             [
                 "30af8ee86d3e7385"
@@ -3154,6 +3624,7 @@
         "id": "fac728d70e1923ab",
         "type": "template",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "Show OS Bit",
         "field": "payload",
         "fieldType": "msg",
@@ -3161,8 +3632,8 @@
         "syntax": "mustache",
         "template": "{\n    \"x\": 78,\n    \"y\": 40,\n    \"size\": 1,\n    \"text\": \"{{global.OSBit}}-bit\"\n}",
         "output": "json",
-        "x": 1350,
-        "y": 400,
+        "x": 930,
+        "y": 480,
         "wires": [
             [
                 "f070aa2adde760ca"
@@ -3173,6 +3644,7 @@
         "id": "1741621e8ef22db4",
         "type": "delay",
         "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
         "name": "",
         "pauseType": "delay",
         "timeout": "10",
@@ -3186,8 +3658,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1190,
-        "y": 400,
+        "x": 770,
+        "y": 480,
         "wires": [
             [
                 "fac728d70e1923ab"
@@ -3195,9 +3667,27 @@
         ]
     },
     {
+        "id": "6826926c5cc3a0d5",
+        "type": "link in",
+        "z": "e059348302dd4852",
+        "g": "7731482e8bee75d8",
+        "name": "Button",
+        "links": [
+            "be701008f611da98"
+        ],
+        "x": 95,
+        "y": 760,
+        "wires": [
+            [
+                "47cb5e590092d9ba"
+            ]
+        ]
+    },
+    {
         "id": "ec39ee34b118e923",
         "type": "ui_switch",
         "z": "62c06baefd79902a",
+        "g": "8f696b754bce64e9",
         "name": "",
         "label": "LED0",
         "tooltip": "",
@@ -3221,32 +3711,18 @@
         "animate": false,
         "className": "",
         "x": 390,
-        "y": 140,
+        "y": 120,
         "wires": [
             [
-                "d16fc121e0ec61d2"
+                "3c81f5628dc20a3f"
             ]
         ]
-    },
-    {
-        "id": "d16fc121e0ec61d2",
-        "type": "rpi-gpio out",
-        "z": "62c06baefd79902a",
-        "name": "LED0 Output",
-        "pin": "20",
-        "set": true,
-        "level": "0",
-        "freq": "",
-        "out": "out",
-        "bcm": true,
-        "x": 610,
-        "y": 140,
-        "wires": []
     },
     {
         "id": "89cc88a3e1740433",
         "type": "ui_switch",
         "z": "62c06baefd79902a",
+        "g": "8f696b754bce64e9",
         "name": "",
         "label": "LED1",
         "tooltip": "",
@@ -3270,32 +3746,18 @@
         "animate": false,
         "className": "",
         "x": 390,
-        "y": 200,
+        "y": 180,
         "wires": [
             [
-                "ea4d1d8be785fe94"
+                "f7c457b6b3a76d13"
             ]
         ]
-    },
-    {
-        "id": "ea4d1d8be785fe94",
-        "type": "rpi-gpio out",
-        "z": "62c06baefd79902a",
-        "name": "LED1 Output",
-        "pin": "21",
-        "set": true,
-        "level": "0",
-        "freq": "",
-        "out": "out",
-        "bcm": true,
-        "x": 610,
-        "y": 200,
-        "wires": []
     },
     {
         "id": "cdcdf33c16171195",
         "type": "ui_button",
         "z": "62c06baefd79902a",
+        "g": "8f696b754bce64e9",
         "name": "",
         "group": "88ffe255855640ed",
         "order": 3,
@@ -3313,7 +3775,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 400,
-        "y": 260,
+        "y": 240,
         "wires": [
             [
                 "150696090b1cc041"
@@ -3324,6 +3786,7 @@
         "id": "150696090b1cc041",
         "type": "trigger",
         "z": "62c06baefd79902a",
+        "g": "8f696b754bce64e9",
         "name": "On for 250ms",
         "op1": "1",
         "op2": "0",
@@ -3338,32 +3801,18 @@
         "topic": "topic",
         "outputs": 1,
         "x": 620,
-        "y": 260,
+        "y": 240,
         "wires": [
             [
-                "42bb863d6a4fe115"
+                "b3973b38adab1c5b"
             ]
         ]
-    },
-    {
-        "id": "42bb863d6a4fe115",
-        "type": "rpi-gpio out",
-        "z": "62c06baefd79902a",
-        "name": "Buzzer Output",
-        "pin": "19",
-        "set": true,
-        "level": "0",
-        "freq": "",
-        "out": "out",
-        "bcm": true,
-        "x": 840,
-        "y": 260,
-        "wires": []
     },
     {
         "id": "750146473b0c58b6",
         "type": "ui_switch",
         "z": "62c06baefd79902a",
+        "g": "8f696b754bce64e9",
         "name": "",
         "label": "Button",
         "tooltip": "",
@@ -3387,33 +3836,16 @@
         "animate": false,
         "className": "",
         "x": 810,
-        "y": 320,
+        "y": 300,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "e03de9264d51e128",
-        "type": "rpi-gpio in",
-        "z": "62c06baefd79902a",
-        "name": "User Button",
-        "pin": "4",
-        "intype": "tri",
-        "debounce": "25",
-        "read": true,
-        "bcm": true,
-        "x": 410,
-        "y": 320,
-        "wires": [
-            [
-                "94b8b844ba9c91d3"
-            ]
         ]
     },
     {
         "id": "94b8b844ba9c91d3",
         "type": "function",
         "z": "62c06baefd79902a",
+        "g": "8f696b754bce64e9",
         "name": "Invert",
         "func": "if (msg.payload == 0) {\n    msg.payload = true;\n} else {\n    msg.payload = false;\n}\nreturn msg;",
         "outputs": 1,
@@ -3423,7 +3855,7 @@
         "finalize": "",
         "libs": [],
         "x": 590,
-        "y": 320,
+        "y": 300,
         "wires": [
             [
                 "750146473b0c58b6"
@@ -3434,6 +3866,7 @@
         "id": "60282391e45ceefe",
         "type": "ui_button",
         "z": "62c06baefd79902a",
+        "g": "ecd28b03fbd1122a",
         "name": "",
         "group": "5b01c9ef39d93b12",
         "order": 9,
@@ -3450,8 +3883,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 400,
-        "y": 2000,
+        "x": 420,
+        "y": 1920,
         "wires": [
             [
                 "34cd93148635b2a2"
@@ -3462,6 +3895,7 @@
         "id": "4cddbf0560cbb036",
         "type": "ui_button",
         "z": "62c06baefd79902a",
+        "g": "ecd28b03fbd1122a",
         "name": "",
         "group": "5b01c9ef39d93b12",
         "order": 10,
@@ -3478,8 +3912,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 400,
-        "y": 2060,
+        "x": 420,
+        "y": 1980,
         "wires": [
             [
                 "3b832cc6a4984378"
@@ -3487,57 +3921,10 @@
         ]
     },
     {
-        "id": "c2a67d4bb8214a3c",
-        "type": "comment",
-        "z": "62c06baefd79902a",
-        "name": "System",
-        "info": "",
-        "x": 390,
-        "y": 1340,
-        "wires": []
-    },
-    {
-        "id": "9608d87e06c2882c",
-        "type": "comment",
-        "z": "62c06baefd79902a",
-        "name": "Button, LEDs & Buzzer",
-        "info": "",
-        "x": 440,
-        "y": 100,
-        "wires": []
-    },
-    {
-        "id": "dc5a9bafa4955fb4",
-        "type": "comment",
-        "z": "62c06baefd79902a",
-        "name": "Digital Inputs",
-        "info": "",
-        "x": 410,
-        "y": 460,
-        "wires": []
-    },
-    {
-        "id": "039575720e3bf458",
-        "type": "rpi-gpio in",
-        "z": "62c06baefd79902a",
-        "name": "DI0",
-        "pin": "13",
-        "intype": "tri",
-        "debounce": "10",
-        "read": true,
-        "bcm": true,
-        "x": 390,
-        "y": 500,
-        "wires": [
-            [
-                "976396ca4f59f2ce"
-            ]
-        ]
-    },
-    {
         "id": "35d4ccba2e282c31",
         "type": "ui_switch",
         "z": "62c06baefd79902a",
+        "g": "510f7a812a5cb8c6",
         "name": "",
         "label": "DI0",
         "tooltip": "",
@@ -3561,7 +3948,7 @@
         "animate": false,
         "className": "",
         "x": 750,
-        "y": 500,
+        "y": 480,
         "wires": [
             []
         ]
@@ -3570,6 +3957,7 @@
         "id": "976396ca4f59f2ce",
         "type": "function",
         "z": "62c06baefd79902a",
+        "g": "510f7a812a5cb8c6",
         "name": "Int to Bool",
         "func": "if (msg.payload == 0) {\n    msg.payload = false;\n} else {\n    msg.payload = true;\n}\nreturn msg;",
         "outputs": 1,
@@ -3578,8 +3966,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 560,
-        "y": 500,
+        "x": 540,
+        "y": 480,
         "wires": [
             [
                 "35d4ccba2e282c31"
@@ -3587,27 +3975,10 @@
         ]
     },
     {
-        "id": "82411685dc2c38fa",
-        "type": "rpi-gpio in",
-        "z": "62c06baefd79902a",
-        "name": "DI1",
-        "pin": "17",
-        "intype": "tri",
-        "debounce": "10",
-        "read": true,
-        "bcm": true,
-        "x": 390,
-        "y": 560,
-        "wires": [
-            [
-                "ac69d1180b53a4eb"
-            ]
-        ]
-    },
-    {
         "id": "96de81e652eaa753",
         "type": "ui_switch",
         "z": "62c06baefd79902a",
+        "g": "510f7a812a5cb8c6",
         "name": "",
         "label": "DI1",
         "tooltip": "",
@@ -3631,7 +4002,7 @@
         "animate": false,
         "className": "",
         "x": 750,
-        "y": 560,
+        "y": 540,
         "wires": [
             []
         ]
@@ -3640,6 +4011,7 @@
         "id": "ac69d1180b53a4eb",
         "type": "function",
         "z": "62c06baefd79902a",
+        "g": "510f7a812a5cb8c6",
         "name": "Int to Bool",
         "func": "if (msg.payload == 0) {\n    msg.payload = false;\n} else {\n    msg.payload = true;\n}\nreturn msg;",
         "outputs": 1,
@@ -3648,8 +4020,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 560,
-        "y": 560,
+        "x": 540,
+        "y": 540,
         "wires": [
             [
                 "96de81e652eaa753"
@@ -3657,27 +4029,10 @@
         ]
     },
     {
-        "id": "5c40e7c00b067253",
-        "type": "rpi-gpio in",
-        "z": "62c06baefd79902a",
-        "name": "DI2",
-        "pin": "22",
-        "intype": "tri",
-        "debounce": "10",
-        "read": true,
-        "bcm": true,
-        "x": 390,
-        "y": 620,
-        "wires": [
-            [
-                "4cda470d704d8e80"
-            ]
-        ]
-    },
-    {
         "id": "b9ef064172544cc3",
         "type": "ui_switch",
         "z": "62c06baefd79902a",
+        "g": "510f7a812a5cb8c6",
         "name": "",
         "label": "DI2",
         "tooltip": "",
@@ -3701,7 +4056,7 @@
         "animate": false,
         "className": "",
         "x": 750,
-        "y": 620,
+        "y": 600,
         "wires": [
             []
         ]
@@ -3710,6 +4065,7 @@
         "id": "4cda470d704d8e80",
         "type": "function",
         "z": "62c06baefd79902a",
+        "g": "510f7a812a5cb8c6",
         "name": "Int to Bool",
         "func": "if (msg.payload == 0) {\n    msg.payload = false;\n} else {\n    msg.payload = true;\n}\nreturn msg;",
         "outputs": 1,
@@ -3718,8 +4074,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 560,
-        "y": 620,
+        "x": 540,
+        "y": 600,
         "wires": [
             [
                 "b9ef064172544cc3"
@@ -3727,27 +4083,10 @@
         ]
     },
     {
-        "id": "38544c13eafe8a92",
-        "type": "rpi-gpio in",
-        "z": "62c06baefd79902a",
-        "name": "DI3",
-        "pin": "27",
-        "intype": "tri",
-        "debounce": "10",
-        "read": true,
-        "bcm": true,
-        "x": 390,
-        "y": 680,
-        "wires": [
-            [
-                "faebef991002e65d"
-            ]
-        ]
-    },
-    {
         "id": "9d4b7e0bc8fa792e",
         "type": "ui_switch",
         "z": "62c06baefd79902a",
+        "g": "510f7a812a5cb8c6",
         "name": "",
         "label": "DI3",
         "tooltip": "",
@@ -3771,7 +4110,7 @@
         "animate": false,
         "className": "",
         "x": 750,
-        "y": 680,
+        "y": 660,
         "wires": [
             []
         ]
@@ -3780,6 +4119,7 @@
         "id": "faebef991002e65d",
         "type": "function",
         "z": "62c06baefd79902a",
+        "g": "510f7a812a5cb8c6",
         "name": "Int to Bool",
         "func": "if (msg.payload == 0) {\n    msg.payload = false;\n} else {\n    msg.payload = true;\n}\nreturn msg;",
         "outputs": 1,
@@ -3788,8 +4128,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 560,
-        "y": 680,
+        "x": 540,
+        "y": 660,
         "wires": [
             [
                 "9d4b7e0bc8fa792e"
@@ -3797,19 +4137,10 @@
         ]
     },
     {
-        "id": "7fb98677f08e50a6",
-        "type": "comment",
-        "z": "62c06baefd79902a",
-        "name": "Digital Outputs",
-        "info": "",
-        "x": 420,
-        "y": 780,
-        "wires": []
-    },
-    {
         "id": "28aa8df4d883d6fd",
         "type": "ui_switch",
         "z": "62c06baefd79902a",
+        "g": "f4c5bdb2754f3579",
         "name": "",
         "label": "DO0",
         "tooltip": "",
@@ -3833,32 +4164,18 @@
         "animate": false,
         "className": "",
         "x": 390,
-        "y": 820,
+        "y": 780,
         "wires": [
             [
-                "3504c6f196126991"
+                "850f74466c825092"
             ]
         ]
-    },
-    {
-        "id": "3504c6f196126991",
-        "type": "rpi-gpio out",
-        "z": "62c06baefd79902a",
-        "name": "DO0 Output",
-        "pin": "23",
-        "set": true,
-        "level": "0",
-        "freq": "",
-        "out": "out",
-        "bcm": true,
-        "x": 570,
-        "y": 820,
-        "wires": []
     },
     {
         "id": "2bc17a430cc19406",
         "type": "ui_switch",
         "z": "62c06baefd79902a",
+        "g": "f4c5bdb2754f3579",
         "name": "",
         "label": "DO1",
         "tooltip": "",
@@ -3882,32 +4199,18 @@
         "animate": false,
         "className": "",
         "x": 390,
-        "y": 880,
+        "y": 840,
         "wires": [
             [
-                "71b3041a1ca6fe1c"
+                "9184fe2c4c96ab84"
             ]
         ]
-    },
-    {
-        "id": "71b3041a1ca6fe1c",
-        "type": "rpi-gpio out",
-        "z": "62c06baefd79902a",
-        "name": "DO1 Output",
-        "pin": "24",
-        "set": true,
-        "level": "0",
-        "freq": "",
-        "out": "out",
-        "bcm": true,
-        "x": 570,
-        "y": 880,
-        "wires": []
     },
     {
         "id": "a8437adb5e24c218",
         "type": "ui_switch",
         "z": "62c06baefd79902a",
+        "g": "f4c5bdb2754f3579",
         "name": "",
         "label": "DO2",
         "tooltip": "",
@@ -3931,32 +4234,18 @@
         "animate": false,
         "className": "",
         "x": 390,
-        "y": 940,
+        "y": 900,
         "wires": [
             [
-                "d94e2f174d4b97ae"
+                "3ae3b6b962ea589e"
             ]
         ]
-    },
-    {
-        "id": "d94e2f174d4b97ae",
-        "type": "rpi-gpio out",
-        "z": "62c06baefd79902a",
-        "name": "DO2 Output",
-        "pin": "25",
-        "set": true,
-        "level": "0",
-        "freq": "",
-        "out": "out",
-        "bcm": true,
-        "x": 570,
-        "y": 940,
-        "wires": []
     },
     {
         "id": "f89fb3a36bb8a961",
         "type": "ui_switch",
         "z": "62c06baefd79902a",
+        "g": "f4c5bdb2754f3579",
         "name": "",
         "label": "DO3",
         "tooltip": "",
@@ -3980,32 +4269,18 @@
         "animate": false,
         "className": "",
         "x": 390,
-        "y": 1000,
+        "y": 960,
         "wires": [
             [
-                "fda1af32a5f33cfe"
+                "f85ac9e3d1d80e43"
             ]
         ]
-    },
-    {
-        "id": "fda1af32a5f33cfe",
-        "type": "rpi-gpio out",
-        "z": "62c06baefd79902a",
-        "name": "DO3 Output",
-        "pin": "26",
-        "set": true,
-        "level": "0",
-        "freq": "",
-        "out": "out",
-        "bcm": true,
-        "x": 570,
-        "y": 1000,
-        "wires": []
     },
     {
         "id": "ac3ac06d824af009",
         "type": "ui_text",
         "z": "62c06baefd79902a",
+        "g": "8f696b754bce64e9",
         "group": "88ffe255855640ed",
         "order": 7,
         "width": 0,
@@ -4020,23 +4295,14 @@
         "fontSize": 16,
         "color": "#000000",
         "x": 420,
-        "y": 380,
-        "wires": []
-    },
-    {
-        "id": "fa3f0e94768397a8",
-        "type": "comment",
-        "z": "62c06baefd79902a",
-        "name": "Analog Inputs",
-        "info": "",
-        "x": 410,
-        "y": 1080,
+        "y": 360,
         "wires": []
     },
     {
         "id": "6b65770f7755ee39",
         "type": "ui_gauge",
         "z": "62c06baefd79902a",
+        "g": "c65c4a2017ccb3f8",
         "name": "",
         "group": "23019df79a890845",
         "order": 1,
@@ -4057,14 +4323,15 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1030,
-        "y": 1100,
+        "x": 1050,
+        "y": 1080,
         "wires": []
     },
     {
         "id": "0bb9861fd2482d3d",
         "type": "ui_gauge",
         "z": "62c06baefd79902a",
+        "g": "c65c4a2017ccb3f8",
         "name": "",
         "group": "23019df79a890845",
         "order": 5,
@@ -4085,14 +4352,15 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1030,
-        "y": 1160,
+        "x": 1050,
+        "y": 1140,
         "wires": []
     },
     {
         "id": "dc5c11934b2fcee1",
         "type": "ui_gauge",
         "z": "62c06baefd79902a",
+        "g": "c65c4a2017ccb3f8",
         "name": "",
         "group": "23019df79a890845",
         "order": 3,
@@ -4113,14 +4381,15 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1030,
-        "y": 1220,
+        "x": 1050,
+        "y": 1200,
         "wires": []
     },
     {
         "id": "8852ef03102f5580",
         "type": "ui_gauge",
         "z": "62c06baefd79902a",
+        "g": "c65c4a2017ccb3f8",
         "name": "",
         "group": "23019df79a890845",
         "order": 7,
@@ -4141,14 +4410,15 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1030,
-        "y": 1280,
+        "x": 1050,
+        "y": 1260,
         "wires": []
     },
     {
         "id": "fde6102c008c0d55",
         "type": "inject",
         "z": "62c06baefd79902a",
+        "g": "c65c4a2017ccb3f8",
         "name": "Every 500ms",
         "props": [
             {
@@ -4166,8 +4436,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 420,
-        "y": 1120,
+        "x": 440,
+        "y": 1100,
         "wires": [
             [
                 "b2f9808e6e192c14"
@@ -4178,6 +4448,7 @@
         "id": "8ed924bb748218e3",
         "type": "function",
         "z": "62c06baefd79902a",
+        "g": "c65c4a2017ccb3f8",
         "name": "Scale Voltage",
         "func": "var msg0 = { payload: msg.payload.length };\nvar msg1 = { payload: msg.payload.length };\nvar msg2 = { payload: msg.payload.length };\nvar msg3 = { payload: msg.payload.length };\n\n\nmsg0.payload = msg.payload[\"/dev/i2c-1\"].ads1115[\"0x48\"].singleEnded.channel_0.Volts * 2.5;\nif (msg0.payload < 0) {\n    msg0.payload = 0;\n}\n\nmsg1.payload = msg.payload[\"/dev/i2c-1\"].ads1115[\"0x48\"].singleEnded.channel_1.Volts * 2.5;\nif (msg1.payload < 0) {\n    msg1.payload = 0;\n}\n\nmsg2.payload = msg.payload[\"/dev/i2c-1\"].ads1115[\"0x48\"].singleEnded.channel_2.Volts * 2.5;\nif (msg2.payload < 0) {\n    msg2.payload = 0;\n}\n\nmsg3.payload = msg.payload[\"/dev/i2c-1\"].ads1115[\"0x48\"].singleEnded.channel_3.Volts * 2.5;\nif (msg3.payload < 0) {\n    msg3.payload = 0;\n}\n\nreturn [msg0, msg1, msg2, msg3];",
         "outputs": 4,
@@ -4186,8 +4457,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 800,
-        "y": 1120,
+        "x": 820,
+        "y": 1100,
         "wires": [
             [
                 "6b65770f7755ee39"
@@ -4207,6 +4478,7 @@
         "id": "b2f9808e6e192c14",
         "type": "ads1x15_i2c",
         "z": "62c06baefd79902a",
+        "g": "c65c4a2017ccb3f8",
         "property": "payload",
         "name": "",
         "i2c_device_number": 1,
@@ -4224,8 +4496,8 @@
         "samplesPerSecond0": "920",
         "samplesPerSecond1": "128",
         "progGainAmp": "4096",
-        "x": 610,
-        "y": 1120,
+        "x": 630,
+        "y": 1100,
         "wires": [
             [
                 "8ed924bb748218e3"
@@ -4236,6 +4508,7 @@
         "id": "822d28d21e12240b",
         "type": "ui_text",
         "z": "62c06baefd79902a",
+        "g": "ecd28b03fbd1122a",
         "group": "5b01c9ef39d93b12",
         "order": 2,
         "width": 0,
@@ -4249,14 +4522,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 850,
-        "y": 1580,
+        "x": 870,
+        "y": 1500,
         "wires": []
     },
     {
         "id": "da4f01f1cb203666",
         "type": "inject",
         "z": "62c06baefd79902a",
+        "g": "ecd28b03fbd1122a",
         "name": "Every 2s",
         "props": [
             {
@@ -4274,8 +4548,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 400,
-        "y": 1580,
+        "x": 420,
+        "y": 1500,
         "wires": [
             [
                 "9e6d86ee75895bd9",
@@ -4292,6 +4566,7 @@
         "id": "9e6d86ee75895bd9",
         "type": "function",
         "z": "62c06baefd79902a",
+        "g": "ecd28b03fbd1122a",
         "name": "Get global variable IpEth0",
         "func": "msg.payload = global.get('IpEth0');\nreturn msg;",
         "outputs": 1,
@@ -4300,8 +4575,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 650,
-        "y": 1580,
+        "x": 670,
+        "y": 1500,
         "wires": [
             [
                 "822d28d21e12240b"
@@ -4312,6 +4587,7 @@
         "id": "c3a32c35cdef8f4b",
         "type": "ui_text",
         "z": "62c06baefd79902a",
+        "g": "ecd28b03fbd1122a",
         "group": "5b01c9ef39d93b12",
         "order": 3,
         "width": 0,
@@ -4325,14 +4601,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 850,
-        "y": 1620,
+        "x": 870,
+        "y": 1540,
         "wires": []
     },
     {
         "id": "e3be9c59a398d806",
         "type": "function",
         "z": "62c06baefd79902a",
+        "g": "ecd28b03fbd1122a",
         "name": "Get global variable IpEth1",
         "func": "msg.payload = global.get('IpEth1');\nreturn msg;",
         "outputs": 1,
@@ -4341,8 +4618,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 650,
-        "y": 1620,
+        "x": 670,
+        "y": 1540,
         "wires": [
             [
                 "c3a32c35cdef8f4b"
@@ -4353,6 +4630,7 @@
         "id": "33b668c25cfd16a8",
         "type": "ui_text",
         "z": "62c06baefd79902a",
+        "g": "ecd28b03fbd1122a",
         "group": "5b01c9ef39d93b12",
         "order": 4,
         "width": 0,
@@ -4366,14 +4644,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 850,
-        "y": 1660,
+        "x": 870,
+        "y": 1580,
         "wires": []
     },
     {
         "id": "cd338b8cd74b51b4",
         "type": "function",
         "z": "62c06baefd79902a",
+        "g": "ecd28b03fbd1122a",
         "name": "Get global variable IpWlan0",
         "func": "msg.payload = global.get('IpWlan0');\nreturn msg;",
         "outputs": 1,
@@ -4382,8 +4661,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 660,
-        "y": 1660,
+        "x": 680,
+        "y": 1580,
         "wires": [
             [
                 "33b668c25cfd16a8"
@@ -4394,6 +4673,7 @@
         "id": "5d8c34500db77fa5",
         "type": "ui_text",
         "z": "62c06baefd79902a",
+        "g": "ecd28b03fbd1122a",
         "group": "5b01c9ef39d93b12",
         "order": 5,
         "width": 0,
@@ -4407,14 +4687,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 870,
-        "y": 1740,
+        "x": 890,
+        "y": 1660,
         "wires": []
     },
     {
         "id": "c8607c96ca93c4f5",
         "type": "function",
         "z": "62c06baefd79902a",
+        "g": "ecd28b03fbd1122a",
         "name": "Get global variable CpuLoad",
         "func": "msg.payload = global.get('CpuLoad');\nreturn msg;",
         "outputs": 1,
@@ -4423,8 +4704,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 660,
-        "y": 1740,
+        "x": 680,
+        "y": 1660,
         "wires": [
             [
                 "5d8c34500db77fa5"
@@ -4435,6 +4716,7 @@
         "id": "8d892f59f1b16913",
         "type": "ui_text",
         "z": "62c06baefd79902a",
+        "g": "ecd28b03fbd1122a",
         "group": "5b01c9ef39d93b12",
         "order": 6,
         "width": 0,
@@ -4448,14 +4730,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 870,
-        "y": 1800,
+        "x": 890,
+        "y": 1720,
         "wires": []
     },
     {
         "id": "aaa2da7bf77f2358",
         "type": "function",
         "z": "62c06baefd79902a",
+        "g": "ecd28b03fbd1122a",
         "name": "Get global variable CpuTemp",
         "func": "msg.payload = global.get('CpuTemp');\nreturn msg;",
         "outputs": 1,
@@ -4464,8 +4747,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 660,
-        "y": 1800,
+        "x": 680,
+        "y": 1720,
         "wires": [
             [
                 "8d892f59f1b16913"
@@ -4476,6 +4759,7 @@
         "id": "8e80e1ec14f94b59",
         "type": "ui_text",
         "z": "62c06baefd79902a",
+        "g": "ecd28b03fbd1122a",
         "group": "5b01c9ef39d93b12",
         "order": 7,
         "width": 0,
@@ -4489,14 +4773,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 850,
-        "y": 1860,
+        "x": 870,
+        "y": 1780,
         "wires": []
     },
     {
         "id": "8a83915a5a3f02e4",
         "type": "function",
         "z": "62c06baefd79902a",
+        "g": "ecd28b03fbd1122a",
         "name": "Get global variable Ram",
         "func": "msg.payload = global.get('Ram');\nreturn msg;",
         "outputs": 1,
@@ -4505,8 +4790,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 650,
-        "y": 1860,
+        "x": 670,
+        "y": 1780,
         "wires": [
             [
                 "8e80e1ec14f94b59"
@@ -4517,6 +4802,7 @@
         "id": "2133ac632fd7220c",
         "type": "ui_text",
         "z": "62c06baefd79902a",
+        "g": "ecd28b03fbd1122a",
         "group": "5b01c9ef39d93b12",
         "order": 8,
         "width": 0,
@@ -4530,14 +4816,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 850,
-        "y": 1920,
+        "x": 870,
+        "y": 1840,
         "wires": []
     },
     {
         "id": "4f8ab336209bf378",
         "type": "function",
         "z": "62c06baefd79902a",
+        "g": "ecd28b03fbd1122a",
         "name": "Get global variable Disk",
         "func": "msg.payload = global.get('Disk');\nreturn msg;",
         "outputs": 1,
@@ -4546,8 +4833,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 650,
-        "y": 1920,
+        "x": 670,
+        "y": 1840,
         "wires": [
             [
                 "2133ac632fd7220c"
@@ -4558,32 +4845,35 @@
         "id": "34cd93148635b2a2",
         "type": "link out",
         "z": "62c06baefd79902a",
+        "g": "ecd28b03fbd1122a",
         "name": "Shutdown",
         "mode": "link",
         "links": [
             "56c92a79f05d255f"
         ],
-        "x": 565,
-        "y": 2000,
+        "x": 585,
+        "y": 1920,
         "wires": []
     },
     {
         "id": "3b832cc6a4984378",
         "type": "link out",
         "z": "62c06baefd79902a",
+        "g": "ecd28b03fbd1122a",
         "name": "Reboot",
         "mode": "link",
         "links": [
             "08f5d4861be16b40"
         ],
-        "x": 565,
-        "y": 2060,
+        "x": 585,
+        "y": 1980,
         "wires": []
     },
     {
         "id": "5fd50e2c84b7143a",
         "type": "ui_text",
         "z": "62c06baefd79902a",
+        "g": "ecd28b03fbd1122a",
         "group": "5b01c9ef39d93b12",
         "order": 1,
         "width": 0,
@@ -4597,14 +4887,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 930,
-        "y": 1400,
+        "x": 950,
+        "y": 1380,
         "wires": []
     },
     {
         "id": "93edce6fcbf6b8f9",
         "type": "inject",
         "z": "62c06baefd79902a",
+        "g": "ecd28b03fbd1122a",
         "name": "Run Once",
         "props": [
             {
@@ -4622,8 +4913,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 410,
-        "y": 1400,
+        "x": 430,
+        "y": 1380,
         "wires": [
             [
                 "faa3f5284120d1d2",
@@ -4635,6 +4926,7 @@
         "id": "faa3f5284120d1d2",
         "type": "function",
         "z": "62c06baefd79902a",
+        "g": "ecd28b03fbd1122a",
         "name": "Get global variable Codename & OSBit",
         "func": "msg.payload = global.get('Codename') + \" \" + global.get('OSBit') + \"-bit\";\nreturn msg;",
         "outputs": 1,
@@ -4643,8 +4935,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 690,
-        "y": 1400,
+        "x": 710,
+        "y": 1380,
         "wires": [
             [
                 "5fd50e2c84b7143a"
@@ -4655,6 +4947,7 @@
         "id": "fd0ac508be3bf537",
         "type": "ui_text",
         "z": "62c06baefd79902a",
+        "g": "ecd28b03fbd1122a",
         "group": "5b01c9ef39d93b12",
         "order": 1,
         "width": 0,
@@ -4668,14 +4961,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 940,
-        "y": 1440,
+        "x": 960,
+        "y": 1420,
         "wires": []
     },
     {
         "id": "5f182ee507748ee0",
         "type": "function",
         "z": "62c06baefd79902a",
+        "g": "ecd28b03fbd1122a",
         "name": "Get global variable Revision",
         "func": "msg.payload = global.get('Revision');\nreturn msg;",
         "outputs": 1,
@@ -4684,12 +4978,606 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 660,
-        "y": 1440,
+        "x": 680,
+        "y": 1420,
         "wires": [
             [
                 "fd0ac508be3bf537"
             ]
         ]
+    },
+    {
+        "id": "3c81f5628dc20a3f",
+        "type": "link out",
+        "z": "62c06baefd79902a",
+        "g": "8f696b754bce64e9",
+        "name": "LED0",
+        "mode": "link",
+        "links": [
+            "149ad93792094d92"
+        ],
+        "x": 555,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "f7c457b6b3a76d13",
+        "type": "link out",
+        "z": "62c06baefd79902a",
+        "g": "8f696b754bce64e9",
+        "name": "LED1",
+        "mode": "link",
+        "links": [
+            "2548750074348081"
+        ],
+        "x": 555,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "b3973b38adab1c5b",
+        "type": "link out",
+        "z": "62c06baefd79902a",
+        "g": "8f696b754bce64e9",
+        "name": "Buzzer",
+        "mode": "link",
+        "links": [
+            "42b9469173c2ba7b"
+        ],
+        "x": 775,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "21a1dbbfbb25cf54",
+        "type": "link in",
+        "z": "62c06baefd79902a",
+        "g": "8f696b754bce64e9",
+        "name": "Button",
+        "links": [
+            "be701008f611da98"
+        ],
+        "x": 355,
+        "y": 300,
+        "wires": [
+            [
+                "94b8b844ba9c91d3"
+            ]
+        ]
+    },
+    {
+        "id": "4f74ee1f606528cf",
+        "type": "link in",
+        "z": "62c06baefd79902a",
+        "g": "510f7a812a5cb8c6",
+        "name": "DI0",
+        "links": [
+            "ed5cac9635191991"
+        ],
+        "x": 355,
+        "y": 480,
+        "wires": [
+            [
+                "976396ca4f59f2ce"
+            ]
+        ]
+    },
+    {
+        "id": "f95735e3fd2f719a",
+        "type": "link in",
+        "z": "62c06baefd79902a",
+        "g": "510f7a812a5cb8c6",
+        "name": "DI1",
+        "links": [
+            "9031ea95efdb0241"
+        ],
+        "x": 355,
+        "y": 540,
+        "wires": [
+            [
+                "ac69d1180b53a4eb"
+            ]
+        ]
+    },
+    {
+        "id": "63430cde3b47cae4",
+        "type": "link in",
+        "z": "62c06baefd79902a",
+        "g": "510f7a812a5cb8c6",
+        "name": "DI2",
+        "links": [
+            "953d87ee5e6849cb"
+        ],
+        "x": 355,
+        "y": 600,
+        "wires": [
+            [
+                "4cda470d704d8e80"
+            ]
+        ]
+    },
+    {
+        "id": "04a969c0823203b6",
+        "type": "link in",
+        "z": "62c06baefd79902a",
+        "g": "510f7a812a5cb8c6",
+        "name": "DI3",
+        "links": [
+            "1f7d4606b8ef7d0d"
+        ],
+        "x": 355,
+        "y": 660,
+        "wires": [
+            [
+                "faebef991002e65d"
+            ]
+        ]
+    },
+    {
+        "id": "850f74466c825092",
+        "type": "link out",
+        "z": "62c06baefd79902a",
+        "g": "f4c5bdb2754f3579",
+        "name": "DO0",
+        "mode": "link",
+        "links": [
+            "6cb20d76dc54e752"
+        ],
+        "x": 535,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "9184fe2c4c96ab84",
+        "type": "link out",
+        "z": "62c06baefd79902a",
+        "g": "f4c5bdb2754f3579",
+        "name": "DO1",
+        "mode": "link",
+        "links": [
+            "cbea8aa350e9f850"
+        ],
+        "x": 535,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "3ae3b6b962ea589e",
+        "type": "link out",
+        "z": "62c06baefd79902a",
+        "g": "f4c5bdb2754f3579",
+        "name": "DO2",
+        "mode": "link",
+        "links": [
+            "a8b0827e20bcbf69"
+        ],
+        "x": 535,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "f85ac9e3d1d80e43",
+        "type": "link out",
+        "z": "62c06baefd79902a",
+        "g": "f4c5bdb2754f3579",
+        "name": "DO3",
+        "mode": "link",
+        "links": [
+            "ec735cdb8292bced"
+        ],
+        "x": 535,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "0209ec402afd1cf1",
+        "type": "rpi-gpio out",
+        "z": "5732512e759ff8e5",
+        "g": "8320fa23569300f5",
+        "name": "LED0 Output",
+        "pin": "20",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 850,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "cd00a2e02518aeaf",
+        "type": "rpi-gpio out",
+        "z": "5732512e759ff8e5",
+        "g": "8320fa23569300f5",
+        "name": "LED1 Output",
+        "pin": "21",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 850,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "149ad93792094d92",
+        "type": "link in",
+        "z": "5732512e759ff8e5",
+        "g": "8320fa23569300f5",
+        "name": "LED0",
+        "links": [
+            "3c81f5628dc20a3f"
+        ],
+        "x": 675,
+        "y": 280,
+        "wires": [
+            [
+                "0209ec402afd1cf1"
+            ]
+        ]
+    },
+    {
+        "id": "2548750074348081",
+        "type": "link in",
+        "z": "5732512e759ff8e5",
+        "g": "8320fa23569300f5",
+        "name": "LED1",
+        "links": [
+            "f7c457b6b3a76d13"
+        ],
+        "x": 675,
+        "y": 340,
+        "wires": [
+            [
+                "cd00a2e02518aeaf"
+            ]
+        ]
+    },
+    {
+        "id": "3b788993ad4107c3",
+        "type": "rpi-gpio out",
+        "z": "5732512e759ff8e5",
+        "g": "8320fa23569300f5",
+        "name": "Buzzer Output",
+        "pin": "19",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 860,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "42b9469173c2ba7b",
+        "type": "link in",
+        "z": "5732512e759ff8e5",
+        "g": "8320fa23569300f5",
+        "name": "Buzzer",
+        "links": [
+            "b3973b38adab1c5b",
+            "548713fd174417c9",
+            "59c5ecbc9808ad02"
+        ],
+        "x": 675,
+        "y": 400,
+        "wires": [
+            [
+                "3b788993ad4107c3"
+            ]
+        ]
+    },
+    {
+        "id": "ab40579a183e1ec7",
+        "type": "rpi-gpio in",
+        "z": "5732512e759ff8e5",
+        "g": "bf0b2dd014e61cb7",
+        "name": "User Button",
+        "pin": "4",
+        "intype": "tri",
+        "debounce": "25",
+        "read": true,
+        "bcm": true,
+        "x": 330,
+        "y": 280,
+        "wires": [
+            [
+                "be701008f611da98"
+            ]
+        ]
+    },
+    {
+        "id": "be701008f611da98",
+        "type": "link out",
+        "z": "5732512e759ff8e5",
+        "g": "bf0b2dd014e61cb7",
+        "name": "Button",
+        "mode": "link",
+        "links": [
+            "21a1dbbfbb25cf54",
+            "6826926c5cc3a0d5",
+            "5139eed07877b883",
+            "5654523bdbb6264a"
+        ],
+        "x": 505,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "8a706d172d62abc6",
+        "type": "rpi-gpio in",
+        "z": "5732512e759ff8e5",
+        "g": "bf0b2dd014e61cb7",
+        "name": "DI0",
+        "pin": "13",
+        "intype": "tri",
+        "debounce": "10",
+        "read": true,
+        "bcm": true,
+        "x": 310,
+        "y": 340,
+        "wires": [
+            [
+                "ed5cac9635191991"
+            ]
+        ]
+    },
+    {
+        "id": "5202f9b5363404e0",
+        "type": "rpi-gpio in",
+        "z": "5732512e759ff8e5",
+        "g": "bf0b2dd014e61cb7",
+        "name": "DI1",
+        "pin": "17",
+        "intype": "tri",
+        "debounce": "10",
+        "read": true,
+        "bcm": true,
+        "x": 310,
+        "y": 400,
+        "wires": [
+            [
+                "9031ea95efdb0241"
+            ]
+        ]
+    },
+    {
+        "id": "ea16ad3d7de9a1c1",
+        "type": "rpi-gpio in",
+        "z": "5732512e759ff8e5",
+        "g": "bf0b2dd014e61cb7",
+        "name": "DI2",
+        "pin": "22",
+        "intype": "tri",
+        "debounce": "10",
+        "read": true,
+        "bcm": true,
+        "x": 310,
+        "y": 460,
+        "wires": [
+            [
+                "953d87ee5e6849cb"
+            ]
+        ]
+    },
+    {
+        "id": "a2e80b6fbdc24b74",
+        "type": "rpi-gpio in",
+        "z": "5732512e759ff8e5",
+        "g": "bf0b2dd014e61cb7",
+        "name": "DI3",
+        "pin": "27",
+        "intype": "tri",
+        "debounce": "10",
+        "read": true,
+        "bcm": true,
+        "x": 310,
+        "y": 520,
+        "wires": [
+            [
+                "1f7d4606b8ef7d0d"
+            ]
+        ]
+    },
+    {
+        "id": "ed5cac9635191991",
+        "type": "link out",
+        "z": "5732512e759ff8e5",
+        "g": "bf0b2dd014e61cb7",
+        "name": "DI0",
+        "mode": "link",
+        "links": [
+            "4f74ee1f606528cf"
+        ],
+        "x": 505,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "9031ea95efdb0241",
+        "type": "link out",
+        "z": "5732512e759ff8e5",
+        "g": "bf0b2dd014e61cb7",
+        "name": "DI1",
+        "mode": "link",
+        "links": [
+            "f95735e3fd2f719a"
+        ],
+        "x": 505,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "953d87ee5e6849cb",
+        "type": "link out",
+        "z": "5732512e759ff8e5",
+        "g": "bf0b2dd014e61cb7",
+        "name": "DI2",
+        "mode": "link",
+        "links": [
+            "63430cde3b47cae4"
+        ],
+        "x": 505,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "1f7d4606b8ef7d0d",
+        "type": "link out",
+        "z": "5732512e759ff8e5",
+        "g": "bf0b2dd014e61cb7",
+        "name": "DI3",
+        "mode": "link",
+        "links": [
+            "04a969c0823203b6"
+        ],
+        "x": 505,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "1f7363a2fa257c85",
+        "type": "rpi-gpio out",
+        "z": "5732512e759ff8e5",
+        "g": "8320fa23569300f5",
+        "name": "DO0 Output",
+        "pin": "23",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 850,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "ce1091c2d76d7a98",
+        "type": "rpi-gpio out",
+        "z": "5732512e759ff8e5",
+        "g": "8320fa23569300f5",
+        "name": "DO1 Output",
+        "pin": "24",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 850,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "65c24e5d96a66f8b",
+        "type": "rpi-gpio out",
+        "z": "5732512e759ff8e5",
+        "g": "8320fa23569300f5",
+        "name": "DO2 Output",
+        "pin": "25",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 850,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "fa0fd4dd8fbb3307",
+        "type": "rpi-gpio out",
+        "z": "5732512e759ff8e5",
+        "g": "8320fa23569300f5",
+        "name": "DO3 Output",
+        "pin": "26",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 850,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "6cb20d76dc54e752",
+        "type": "link in",
+        "z": "5732512e759ff8e5",
+        "g": "8320fa23569300f5",
+        "name": "DO0",
+        "links": [
+            "850f74466c825092"
+        ],
+        "x": 675,
+        "y": 460,
+        "wires": [
+            [
+                "1f7363a2fa257c85"
+            ]
+        ]
+    },
+    {
+        "id": "cbea8aa350e9f850",
+        "type": "link in",
+        "z": "5732512e759ff8e5",
+        "g": "8320fa23569300f5",
+        "name": "DO1",
+        "links": [
+            "9184fe2c4c96ab84"
+        ],
+        "x": 675,
+        "y": 520,
+        "wires": [
+            [
+                "ce1091c2d76d7a98"
+            ]
+        ]
+    },
+    {
+        "id": "a8b0827e20bcbf69",
+        "type": "link in",
+        "z": "5732512e759ff8e5",
+        "g": "8320fa23569300f5",
+        "name": "DO2",
+        "links": [
+            "3ae3b6b962ea589e"
+        ],
+        "x": 675,
+        "y": 580,
+        "wires": [
+            [
+                "65c24e5d96a66f8b"
+            ]
+        ]
+    },
+    {
+        "id": "ec735cdb8292bced",
+        "type": "link in",
+        "z": "5732512e759ff8e5",
+        "g": "8320fa23569300f5",
+        "name": "DO3",
+        "links": [
+            "f85ac9e3d1d80e43"
+        ],
+        "x": 675,
+        "y": 640,
+        "wires": [
+            [
+                "fa0fd4dd8fbb3307"
+            ]
+        ]
+    },
+    {
+        "id": "5c51c303fecba2fc",
+        "type": "comment",
+        "z": "5732512e759ff8e5",
+        "name": "Due to the limitation for Raspberry Pi 5, we can't have multiple input/output node accessing the same GPIO pin. \\n Thus we have the centralized nodes to access the GPIO.",
+        "info": "",
+        "x": 600,
+        "y": 160,
+        "wires": []
     }
 ]

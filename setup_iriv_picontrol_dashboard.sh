@@ -8,10 +8,14 @@ if [ $(id -u) -eq 0 ]; then
     exit 1
 fi
 
+# Make sure Node-RED is already installed.
+nodered_dir="/home/pi/.node-red"
+ls $nodered_dir >/dev/null 2>/dev/null
+if [ $? -ne 0 ]; then
+    echo 'Please install Node-RED before running this script.'
+	exit 1
+fi
 
-
-# Download script.
-#curl -LO https://raw.githubusercontent.com/CytronTechnologies/IRIV-PI-CONTROL_Script/main/background_script.py
 
 
 # Configure the config.txt file.
@@ -33,9 +37,10 @@ fi
 
 # Enable USB host.
 grep "dtoverlay=dwc2,dr_mode=host" $config_file >/dev/null
-if [ $? -ne 0 ]; then
-    echo "dtoverlay=dwc2,dr_mode=host" | sudo tee -a $config_file >/dev/null
+if [ $? -eq 0 ]; then
+    sudo sed -i "s/^dtoverlay=dwc2,dr_mode=host//g" $config_file
 fi
+echo "dtoverlay=dwc2,dr_mode=host" | sudo tee -a $config_file >/dev/null
 
 #Enable I2C1.
 grep "dtparam=i2c_arm=on" $config_file >/dev/null
@@ -48,17 +53,18 @@ else
     fi
 fi
 
-# Enable I2C0 for RTC.
-grep "dtparam=i2c_vc=on" $config_file >/dev/null
+# Enable I2C for RTC.
+grep "i2c-rtc" $config_file >/dev/null
 if [ $? -ne 0 ]; then
-    echo "dtparam=i2c_vc=on" | sudo tee -a $config_file >/dev/null
-    echo "dtoverlay=i2c-rtc,pcf85063a,i2c_csi_dsi" | sudo tee -a $config_file >/dev/null
+    sudo sed -i "/\[cm4\]/a dtparam=i2c_vc=on\ndtoverlay=i2c-rtc,pcf85063a,i2c_csi_dsi" $config_file
+	sudo sed -i "/\[cm5\]/a dtparam=rtc=off\ndtparam=i2c_csi_dsi0=on\ndtoverlay=i2c-rtc,pcf85063a,i2c6" $config_file
 fi
 
 # Enable UART and serial console.
 grep "enable_uart=1" $config_file >/dev/null
 if [ $? -ne 0 ]; then
-    echo "enable_uart=1" | sudo tee -a $config_file >/dev/null
+    sudo sed -i "/\[cm4\]/a enable_uart=1" $config_file
+	sudo sed -i "/\[cm5\]/a dtparam=uart0_console" $config_file
 fi
 
 # Change to external antenna.
@@ -69,19 +75,7 @@ fi
 
 
 
-# Install Node-RED.
-echo
-echo
-echo "###################"
-echo "Installing Node-RED"
-echo "###################"
-echo
-
-printf 'Y\nY\nN\n' | bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
-
-
-
-# Install nodes.
+# Install Node-RED nodes.
 echo
 echo
 echo "################"
@@ -89,13 +83,13 @@ echo "Installing Nodes"
 echo "################"
 echo
 
-cd /home/pi/.node-red
+cd $nodered_dir
 npm install node-red-contrib-oled
 npm install node-red-dashboard
 npm install node-red-contrib-ads1x15_i2c
 
 # Modify oled.js to rotate screen 180 degrees.
-oled_js_file="/home/pi/.node-red/node_modules/oled-i2c-bus/oled.js"
+oled_js_file=$nodered_dir"/node_modules/oled-i2c-bus/oled.js"
 sed -i "s/this.SEG_REMAP = 0xA1; \/\/ using 0xA0 will flip screen/this.SEG_REMAP = 0xA0; \/\/ using 0xA0 will flip screen/g" $oled_js_file
 sed -i "s/this.COM_SCAN_DEC, \/\/ screen orientation change to INC to flip/this.COM_SCAN_INC, \/\/ screen orientation change to INC to flip/g" $oled_js_file
 
