@@ -7,13 +7,18 @@
     - Password: raspberry
     - WiFi credential (If we want to use the WiFi for internet connection during setup)
 2. Boot up the IRIV PiControl and run this command from the console (or SSH).
-```
-curl -L tinyurl.com/setup-iriv-picontrol-dashboard | bash
-```
+   - Instal Node-RED
+     ```
+     bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
+     ```
+   - Run the configuration script
+     ```
+     curl -L tinyurl.com/setup-iriv-picontrol-dashboard | bash
+     ```
 **What the setup script does?**
 - Add the following settings to /boot/config.txt
   - Disable USB OTG and enable the USB Host.
-  - Enable I2C0 for RTC and I2C1.
+  - Enable I2C for RTC and I2C1.
   - Enable UART and serial console.
   - Changed the WiFi/Bluetooth antenna to external antenna.
 - Install Node-RED and these nodes:
