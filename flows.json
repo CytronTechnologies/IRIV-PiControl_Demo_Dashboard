@@ -1695,7 +1695,7 @@
         "z": "5445a7fef5dd7231",
         "g": "118e3eec7aeb3303",
         "name": "Save to global variable Revision",
-        "func": "global.set('Revision', \"v1.1.3\");",
+        "func": "global.set('Revision', \"v1.2.0\");",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
