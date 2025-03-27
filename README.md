@@ -15,6 +15,10 @@
      ```
      curl -L tinyurl.com/setup-iriv-picontrol-dashboard | bash
      ```
+   - Apply the patch to fix the ADC bug in Node-RED
+     ```
+     curl -L tinyurl.com/iriv-picontrol-adc-patch | bash
+     ```
 **What the setup script does?**
 - Add the following settings to /boot/config.txt
   - Disable USB OTG and enable the USB Host.
