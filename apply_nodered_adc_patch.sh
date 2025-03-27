@@ -13,7 +13,7 @@ nodered_dir="/home/pi/.node-red"
 ls $nodered_dir >/dev/null 2>/dev/null
 if [ $? -ne 0 ]; then
     echo 'Please install Node-RED before running this script.'
-	exit 1
+        exit 1
 fi
 
 
