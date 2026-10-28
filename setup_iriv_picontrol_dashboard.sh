@@ -95,6 +95,21 @@ sed -i "s/this.COM_SCAN_DEC, \/\/ screen orientation change to INC to flip/this.
 
 
 
+# Updating Node.js to v24
+echo
+echo
+echo "#######################"
+echo "Updating Node.js to v24"
+echo "#######################"
+echo
+
+curl -fsSL https://deb.nodesource.com/setup_24.x | sudo -E bash -
+sudo apt-get install -y nodejs
+cd $nodered_dir
+npm rebuild
+
+
+
 # Download flows
 echo
 echo
@@ -108,9 +123,12 @@ curl -LO https://raw.githubusercontent.com/CytronTechnologies/IRIV-PiControl_Dem
 
 
 # Allow passwordless sudo for nmcli, shutdown and reboot.
+echo
+echo
 echo "########################################################"
 echo "Setting passwordless sudo for nmcli, shutdown and reboot"
 echo "########################################################"
+echo
 
 echo "pi ALL=(ALL) NOPASSWD: /usr/bin/nmcli, /usr/sbin/reboot, /usr/sbin/shutdown" | sudo tee -a "/etc/sudoers.d/020_nodered" >/dev/null
 sudo chmod 0440 /etc/sudoers.d/020_nodered
@@ -118,9 +136,13 @@ sudo chmod 0440 /etc/sudoers.d/020_nodered
 
 
 # Setting default WiFi country to MY.
+echo
+echo
 echo "##########################"
 echo "Setting WiFi country to MY"
 echo "##########################"
+echo
+
 sudo raspi-config nonint do_wifi_country MY
 
 
