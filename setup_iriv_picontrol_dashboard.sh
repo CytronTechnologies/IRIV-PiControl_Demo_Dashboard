@@ -107,6 +107,16 @@ curl -LO https://raw.githubusercontent.com/CytronTechnologies/IRIV-PiControl_Dem
 
 
 
+# Allow passwordless sudo for nmcli, shutdown and reboot.
+echo "########################################################"
+echo "Setting passwordless sudo for nmcli, shutdown and reboot"
+echo "########################################################"
+
+echo "pi ALL=(ALL) NOPASSWD: /usr/bin/nmcli, /usr/sbin/reboot, /usr/sbin/shutdown" | sudo tee -a "/etc/sudoers.d/020_nodered" >/dev/null
+sudo chmod 0440 /etc/sudoers.d/020_nodered
+
+
+
 # Setup autorun service
 echo
 echo
