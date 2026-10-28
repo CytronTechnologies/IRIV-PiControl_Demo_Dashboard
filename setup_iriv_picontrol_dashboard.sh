@@ -117,6 +117,14 @@ sudo chmod 0440 /etc/sudoers.d/020_nodered
 
 
 
+# Setting default WiFi country to MY.
+echo "##########################"
+echo "Setting WiFi country to MY"
+echo "##########################"
+sudo raspi-config nonint do_wifi_country MY
+
+
+
 # Setup autorun service
 echo
 echo
