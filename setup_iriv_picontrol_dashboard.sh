@@ -87,6 +87,7 @@ cd $nodered_dir
 npm install node-red-contrib-oled
 npm install node-red-dashboard
 npm install node-red-contrib-ads1x15_i2c
+npm install node-red-contrib-modbus
 
 # Modify oled.js to rotate screen 180 degrees.
 oled_js_file=$nodered_dir"/node_modules/oled-i2c-bus/oled.js"
